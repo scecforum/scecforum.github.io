@@ -1,0 +1,159 @@
+*{
+  margin:0;
+  padding:0;
+}
+
+.eventTitle {
+  margin: auto;
+  position: absolute;
+  top: 0; 
+  left: 0; 
+  bottom: 0; 
+  right: 0;
+  color:#fff;
+  height:150px; 
+}
+
+.eventTitle1 {
+  margin: auto;
+  position: absolute;
+  top: 0; 
+  left: 0; 
+  bottom: 0; 
+  right: 0;
+  color:#fff;
+  height:150px; 
+}
+
+
+.theTACCLogo{
+	height: 30px;
+	width: 100px;
+}
+
+.menuWrappers {
+	margin-top: 25px;
+	margin-left: 20px;
+}
+
+a {
+ 	text-decoration: none;
+	color: #ffffff;
+	font-weight: bold;
+	font-size: 17px;
+	transition-duration: 0.4s;
+}
+
+a:hover {
+	color: #4286f4;
+	text-decoration: none;
+}
+
+.specialMenuWrapper{
+	margin-right: 25px;
+}
+
+.taccWrapper{
+	margin-top: -5px;
+	
+}
+
+.eventTitle > h1{
+	font-weight: 900;
+	font-size: 45px;
+	color: #95b3e2;
+}
+
+.eventTitle1 > h1{
+	font-weight: 20;
+	font-size: 30px;
+	color: #95b3e2;
+}
+
+.eventTitle1 > h2{
+	font-weight: bold;
+	font-size: 25px;
+	color: #ffffff;
+}
+
+.navbar-default {
+	background-color: #08d378;
+}
+
+.eventTitle > h2 {
+	font-weight: bold;
+	font-size: 25px;
+	color: #ffffff;
+}
+
+.top{
+  background-image:url("conference2.jpg");
+  background-size:cover;
+  background-position:center;
+  height:100vh;
+}
+
+.center {
+	text-align: justify;
+}
+
+.remove {
+	color: #21324f;
+}
+
+.overviewSec {
+	padding-top: 15px;
+	background-color: #21324f;
+	color: #ffffff;
+}
+
+.contact {
+	padding-top: 12px;
+	background-color: #21324f;
+	color: #ffffff;
+}
+
+.noList {
+	list-style: none;
+}
+
+.agenda {
+	padding-top: 15px;
+background-color: #21324f;
+	color: #ffffff;
+	text-align: center;
+}
+
+.thecommitte {
+	padding-top: 15px;
+background-color: #21324f;
+	color: #ffffff;
+	padding-left: 40px;
+}
+
+.theDate {
+	padding-top: 15px;
+background-color: #ffffff;
+	color: #21324f;
+	text-align: center;
+}
+
+.topicsSec {
+	padding-top: 10px; 
+	color: #21324f;
+	text-align: center;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+.titleScec {
+	text-align: center;
+	margin-bottom: -20px;
+}
+
+#navbarTop.scrolled {
+  background-color: #08d378;
+  transition: background-color 200ms linear;
+}

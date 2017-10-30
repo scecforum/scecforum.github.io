@@ -6,23 +6,23 @@
 .eventTitle {
   margin: auto;
   position: absolute;
-  top: 0; 
-  left: 0; 
-  bottom: 0; 
+  top: 0;
+  left: 0;
+  bottom: 0;
   right: 0;
   color:#fff;
-  height:150px; 
+  height:150px;
 }
 
 .eventTitle1 {
   margin: auto;
   position: absolute;
-  top: 0; 
-  left: 0; 
-  bottom: 0; 
+  top: 0;
+  left: 0;
+  bottom: 0;
   right: 0;
   color:#fff;
-  height:150px; 
+  height:150px;
 }
 
 
@@ -42,6 +42,11 @@ a {
 	font-weight: bold;
 	font-size: 17px;
 	transition-duration: 0.4s;
+  margin-bottom: -4px;
+}
+
+.theOverview {
+  padding-top: -100px;
 }
 
 a:hover {
@@ -54,8 +59,15 @@ a:hover {
 }
 
 .taccWrapper{
-	margin-top: -5px;
-	
+	margin-top: -2px;
+	padding-top: -5px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+  transition-duration: 0.7s;
+}
+
+.taccWrapper:hover{
+	background-color: #ffffff;
 }
 
 .eventTitle > h1{
@@ -124,11 +136,19 @@ background-color: #21324f;
 	text-align: center;
 }
 
+.eventTitleDetails {
+  margin-top: 40px;
+}
+
 .thecommitte {
 	padding-top: 15px;
 background-color: #21324f;
 	color: #ffffff;
 	padding-left: 40px;
+}
+
+.place {
+    text-align: left;
 }
 
 .theDate {
@@ -138,8 +158,43 @@ background-color: #ffffff;
 	text-align: center;
 }
 
+.date{
+    width:150px;
+    padding-top: 10px;
+    float: left;
+    margin-right: 10px;
+}
+
+.specificDate {
+  margin-top: 10px;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+}
+
+.calendar {
+  margin-left: 40%;
+}
+
+.seperator{
+    border-right: 6px solid #d6a780;
+    height: 90px;
+    float: left;
+}
+
+.locationLogo {
+  margin-left: 40%;
+}
+
+.location {
+  padding-top: 10px;
+  float: left;
+  margin-left: 20px;
+  width: 160px;
+}
+
 .topicsSec {
-	padding-top: 10px; 
+	padding-top: 10px;
 	color: #21324f;
 	text-align: center;
 }
@@ -148,12 +203,46 @@ background-color: #ffffff;
 	font-weight: bold;
 }
 
+.theBorder {
+    border: 6px solid #d6a780;
+    margin-bottom: 40px;
+}
+
+.none {
+    font-weight: normal;
+}
+
+.fontType {
+    font-family: 'Merriweather', serif;
+}
+
 .titleScec {
 	text-align: center;
 	margin-bottom: -20px;
 }
 
+.marginTop {
+  margin-top: 20px;
+}
+
 #navbarTop.scrolled {
+  padding-top: 0px;
   background-color: #08d378;
   transition: background-color 200ms linear;
+  padding-bottom: 0px;
+  -webkit-transition-property: padding; /* Safari */
+  -webkit-transition-duration: .5s;
+  transition-property: padding;
+  -webkit-transition-duration: .5;
+}
+
+#navbarTop {
+  padding-top: 15px;
+  padding-left: 20px;
+  padding-right: 25px;
+  padding-bottom: 15px;
+  -webkit-transition-property: padding; /* Safari */
+  -webkit-transition-duration: .5s;
+  transition-property: padding;
+  -webkit-transition-duration: .5;
 }

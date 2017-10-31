@@ -79,6 +79,36 @@ a:hover {
 	color: #95b3e2;
 }
 
+.btn {
+	display: inline-block;
+	margin-top: 15px;
+	color: #000000;
+	font-family: "Roboto";
+	font-weight: 400;
+	line-height: 1.33;
+	border-radius: 6px;
+	border: solid 2px #000000;
+	background: transparent;
+	text-align: center;
+	transition: all .3s ease-in-out;
+	cursor: pointer;
+}
+
+.makeItCenter {
+  text-align: center;
+}
+
+.btn:hover {
+	background: #000000;
+	color: #FFF;
+	text-decoration: none;
+}
+
+.btn-lg {
+  	padding: 18px 27px;
+ 	font-size: 20px;
+}
+
 .eventTitle1 > h1{
 	font-weight: 900;
 	font-size: 30px;

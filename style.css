@@ -160,6 +160,7 @@ a:hover {
 	padding-top: 15px;
 	background-color: #21324f;
 	color: #ffffff;
+  padding-bottom: 50px
 }
 
 .contact {
@@ -255,11 +256,29 @@ background-color: #21324f;
 
 .sponsorLogos {
   height: 100px;
-  width: 150px;
+  width: 100px;
+}
+
+.marginLeft {
+  padding-left: 30px;
+  padding-right: 40px;
+}
+
+.row1 {
+  margin-right: 0px;
+}
+
+.sponsorMargin1 {
+    margin-right: 50px;
 }
 
 .sponsorMargin {
   margin-right: 50px;
+  margin-left: 10px;
+}
+
+.sponsorTACC {
+  padding-left: 30px;
 }
 
 .onlyBorder {

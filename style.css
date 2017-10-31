@@ -238,7 +238,7 @@ background-color: #21324f;
 }
 
 .location {
-  padding-top: 10px;
+  padding-top: 1px;
   float: left;
   margin-left: 20px;
   width: 205px;
@@ -257,6 +257,10 @@ background-color: #21324f;
 .sponsorLogos {
   height: 100px;
   width: 100px;
+}
+
+.workshop {
+  margin-top: 10px;
 }
 
 .marginLeft {

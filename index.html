@@ -1,121 +1,210 @@
 <!DOCTYPE html>
 <html>
-
 <head>
- <meta charset="UTF-8" />
- <meta name="viewport" content="width=device-width, initial-scale=1">
- <title>SCEC 2017 - First Workshop on Software Challenges to Exascale Computing (SCEC)</title>
- <meta name="keywords" content="HPC, Supercomputing, Exascale, Software, SCEC, SCEC17, Advanced Software Engineering">
- <meta name="description" content="SCEC17 - First Workshop on Software Challenges to Exascale Computing">
+	 <meta charset="UTF-8" />
+	 <meta name="viewport" content="width=device-width, initial-scale=1">
+	 <title>SCEC 2017 - First Workshop on Software Challenges to Exascale Computing (SCEC)</title>
+	 <meta name="keywords" content="HPC, Supercomputing, Exascale, Software, SCEC, SCEC17, Advanced Software Engineering">
+	 <meta name="description" content="SCEC17 - First Workshop on Software Challenges to Exascale Computing">
+	 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+	 <link rel="stylesheet" type="text/css" href="style.css">
+	 <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+	 <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+	 <link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
 </head>
 
 <body>
+		<header class="top">
+	 </header>
+	 <div class="frontOfPage">
+ 		<nav class="navbar navbar-fixed-top hidden-xs" id="navbarTop">
+ 			<div class="container-fluid">
+ 				<div class="navbar-header taccWrapper hidden-sm">
+ 					<a class="navbar-brand" href="https://www.tacc.utexas.edu/" target="_blank">
+ 						<img class="theTACCLogo" src="taccLogo.jpeg">
+ 					</a>
+ 				</div>
+ 				<div>
+ 						<ul class="nav navbar-nav navbar-right">
+ 							<li><a id="overwiewOption" href="#">Overview</a></li>
+ 							<li><a id="topicsOption" href="#">Topics</a></li>
+ 							<li><a id="agendaOption" href="#">Agenda</a></li>
+ 							<li><a id="datesOption" href="#">Dates</a></li>
+ 							<li><a id="committeeOption" href="#">Committee</a></li>
+ 							<li><a id="sponsorsOption" href="#">Sponsors</a></li>
+ 							<li><a id="registrationOption" href="#">Registration</a></li>
+ 						</ul>
+ 				</div>
+ 			</div>
+ 		</nav>
 
-  <div id="main">
 
-      <nav><ul>
-      <li ><a href="#intro">SCEC 2017</a></li>
-      <li ><a href="#topics">Topics</a></li>
-      <li ><a href="#agenda">Agenda</a></li>
-      <li ><a href="#dates">Dates</a></li>
-      <li ><a href="#committe">Committee</a></li>
-      <li ><a href="#sponsor">Sponsors</a></li>
-      <li ><a href="#register">Registration</a></li>
-      <li ><a href="#contact">Contact</a></li>
-      
-      </ul></nav>
+ 		<nav class="navbar navbar-inverse navbar-fixed-top hidden-lg hidden-xl hidden-md hidden-sm">
+ 			<div class="container-fluid">
+ 				<div class="navbar-header">
+ 						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+ 							<span class="icon-bar"></span>
+ 							<span class="icon-bar"></span>
+ 							<span class="icon-bar"></span>
+ 						</button>
+ 					<a class="navbar-brand" href="https://www.tacc.utexas.edu/" target="_blank">
+ 						<img class="theTACCLogo" src="taccLogo.jpeg">
+ 					</a>
+ 				</div>
 
-      <div id="intro" >
-        <div >
-            <h1>SCEC 2017</h1>
+ 					<div class="collapse navbar-collapse" id="myNavbar">
+ 						<ul class="navbar-right">
+							<li><a id="overwiewOptionCollapse" href="#">Overview</a></li>
+ 							<li><a id="topicsOptionCollapse" href="#">Topics</a></li>
+ 							<li><a id="agendaOptionCollapse" href="#">Agenda</a></li>
+ 							<li><a id="datesOptionCollapse" href="#">Dates</a></li>
+ 							<li><a id="committeeOptionCollapse" href="#">Committee</a></li>
+ 							<li><a id="sponsorsOptionCollapse" href="#">Sponsors</a></li>
+ 							<li><a id="registrationOptionCollapse" href="#">Registration</a></li>
+ 						</ul>
+ 					</div>
 
-          	<div style="text-align:center;"></div>
-          	<h2>First Workshop on Software Challenges to Exascale Computing</h2>
-          	<h3>December 21, 2017, Jaipur, Rajasthan, India.</h3>
-          	<h3> Overview</h3>
-          	
-          	<p>Supercomputing or High Performance Computing (HPC) platforms are used to power discoveries and to reduce the time-to-results in a wide variety of disciplines (such as, astrophysics, archaeology, and financial trading). However, just provisioning HPC platforms is not very meaningful if the applications running on these platforms are not scalable and capable of fully utilizing their power. Writing scalable and performant software that can use these platforms effectively is critical for the sustained advancement of the field of supercomputing/HPC, and, to stay internationally competitive in science and technology. While the market is oversaturated with software engineers skilled at web-based technologies, there is a shortfall of workforce trained at developing performant HPC applications. Therefore, there is a need to motivate the workforce in selecting the less travelled territory of HPC software development. The HPC community can also leverage the research in the advanced software engineering discipline - such as, generative programming techniques, compiler design, refactoring tools, and model-driven engineering - to develop high-productivity tools and environments. Without bringing together the researchers and practitioners from the HPC and advanced software engineering communities, it will be a tough task to prepare people and applications for the exascale computing era. </p>
-          	<p>The goal of the first workshop on “Software Challenges to Exascale Computing” is to foster international collaborations across the supercomputing and advanced software engineering disciplines. The workshop attendees will learn about the state-of-the-art and the state-of-the-practice in the area of "software engineering for HPC", through presentations, hands-on sessions, and open-discussion sessions. By providing hands-on training to the interested participants, the workshop will also contribute towards the workforce development initiatives of the Indian and the US governments. As its broader impact, the workshop will provide a forum through which hardware vendors and software developers can communicate with each other and influence the architecture of the next generation supercomputing systems and the supporting software stack. Those already skilled in the advanced software engineering discipline will learn about the challenges and opportunities in the HPC domain. By fostering cross-disciplinary associations, the workshop will serve as a stepping stone towards innovations in future.  </p>
-          	<p>
-Benefits to HPC hardware vendors: understand the evolving needs of the HPC community, and network with potential customers. <br> <br>
+ 			</div>
+ 		</nav>
 
-Benefits to HPC service providers: understand the challenges that the community faces in using the HPC platforms efficiently, and connect with the user-community. <br><br>
 
-Benefits to HPC researchers and users in the academia: disseminate your results to the public, and find potential collaborators. <br> <br>
+ 		<div class="container-fluid hidden-xs hidden-sm">
+ 			<div class="eventTitle">
+ 				<h1 class="text-center">First Workshop on Software Challenges to Exascale Computing</h1>
+ 				<div class="eventTitleDetails container">
+ 					<div class="col-md-2"></div>
+ 					<div class="col-md-8">
+ 						<div class="date container">
+ 								<div class="fa fa-calendar fa-3x calendar" aria-hidden="true"></div>
+ 								<div class="specificDate">
+ 									<b>December 17, 2017</b>
+ 								</div>
+ 						</div>
+ 						<div class="seperator"></div>
+ 						<div class="location container">
+ 								<div class="fa fa-map-marker fa-3x locationLogo" aria-hidden="true"></div>
+ 								<div class="specificDate">
+ 									<b>Jaipur, Rajasthan, India</b>
+ 								</div>
+ 						</div>
+ 					</div>
+ 					<div class="col-md-2"></div>
+ 				</div>
+ 			</div>
+ 		</div>
 
-Benefits to HPC software developers: understand the future trends in the HPC hardware and develop collaborations in the code modernization and optimization disciplines. <br> <br>
+ 		<div class="container-fluid hidden-md hidden-lg hidden-xl">
+ 			<div class="eventTitle1">
+ 				<h1 class="text-center">First Workshop on Software Challenges to Exascale Computing</h1>
+ 				<h2 class="text-center">December 17, 2017<br />
+ 				Jaipur, Rajasthan, India</h2>
+ 			</div>
+ 		</div>
+ 		</div>
 
-Benefits to students: network with HPC and advanced software engineering professionals and researchers, learn about internship and career opportunities, discuss the opportunities for higher education.
-           </p>
+
+
+
+
+	<a href="#" name="overview"></a>
+	<div class="overviewSec"><br /></div>
+     <div class="container-fluid overviewSec">
+            <div class="titleScec">
+            	<div class="row">
+            		<h1 class="bold">SCEC 2017</h1>
+            	</div>
+            </div>
+          	<div class="col-md-6">
+          	<h3 class="bold"> Overview</h3>
+          	<p class="fontSizeForP fontType">Supercomputing or High Performance Computing (HPC) platforms are used to power discoveries and to reduce the time-to-results in a wide variety of disciplines (such as, astrophysics, archaeology, and financial trading). For optimally utilizing these high-end HPC platforms, it is critical to have scalable and efficient software (applications, middleware, libraries, and tools) that can take advantage of the innovative hardware features in these platforms. However, developing and maintaining HPC software remains a challenging task because the HPC platforms for which they are developed typically have a short life-span, and are replaced with next generation platforms within a few years. This task of developing and maintaining HPC software is likely to become even more challenging than now as we progress towards the exascale computing era due to the growth in the complexity of the HPC platforms and the pressing need for power-efficiency. Some of the challenges related to developing HPC software for current and future generation systems can be mitigated by adopting the innovations in advanced software engineering disciplines, such as model-driven engineering, generative programming, and adaptive and reflective software systems.</p>
+
+          	<p class="fontSizeForP fontType">The goals of the first workshop on “Software Challenges to Exascale Computing” are to foster international collaborations across the HPC and the advanced software engineering disciplines, and to exchange knowledge on the challenges and solution strategies for developing scalable and efficient HPC software. The workshop attendees will learn about the state-of-the-art and the state-of-the-practice in the areas of HPC software development and advanced software engineering through presentations, hands-on sessions, and open-discussion sessions. Those already skilled in the advanced software engineering discipline will learn about the challenges and opportunities in the HPC domain, and can find interesting test cases for generalizing their innovative approaches.</p><br/><br /><br /><br />
+            </div>
+            <div class="col-md-6">
+            <h3 class="bold remove"> Overview</h3>
+            <p class="fontSizeForP fontType">The workshop will provide a forum through which hardware vendors and software developers can communicate with each other and influence the architecture of the next generation supercomputing systems and the supporting software stack. By fostering cross-disciplinary associations, the workshop will serve as a stepping stone towards innovations in the future. <br/><br />
+          	Benefits to the researchers and users in the academia: disseminate your results to the public, and find potential collaborators. <br /> <br />
+						Benefits to software developers: understand the future trends in the HPC hardware and develop collaborations in the code modernization and optimization disciplines.<br /> <br />
+						Benefits to HPC service providers: understand the challenges that the community faces in using the HPC platforms efficiently, and connect with the user-community. <br /><br />
+						Benefits to HPC hardware vendors: understand the evolving needs of the HPC community, and network with potential customers.<br /><br />
+						Benefits to students: network with HPC and advanced software engineering professionals and researchers, learn about internship and career opportunities, discuss the opportunities for higher education.<br /><br />
+</p>
+            </div>
         </div>
-      </div>
-      
-      <div id="topics">
-        <div>
-            <h3>The topics that are of interest to the workshop include, but are not limited to:</h3>
-            <ul>
-                <li>Best practices for HPC application development</li>
-                <li>Software tools for HPC code modernization</li>
-                <li>High-level interfaces, compilers, and runtime systems for high-productivity parallel programming</li>
-                <li>Innovations in efficient utilization of memory hierarchy on a supercomputing platform</li>
-                <li>Techniques to reduce energy consumption during the execution of applications on supercomputing platforms</li>
-                <li>Supporting software and middleware for HPC environments </li>
-                <li>Software support for HPC/exascale computing in the cloud </li>
+
+      <a name="topics"></a>
+			<div class=""><br /><br /></div>
+        <div class="container-fluid topicsSec">
+        	<div class="theBorder container">
+            <h3 class="bold"><u><br>The Topics Of Interest Include, But Are Not Limited To:</u></h3>
+            <ul class="noList fontType">
+                <li>Best practices for HPC software development</li>
+                <li>Software tools for HPC code modernization and optimization</li>
+                <li>Supporting software and middleware for HPC environments</li>
+                <li>High-level interfaces, libraries, compilers, and runtime systems for high-productivity parallel programming Innovations in efficient utilization of memory hierarchies on HPC platforms</li>
+                <li>Techniques for developing power-efficient applications Software support for HPC in the cloud</li>
             </ul>
+            <br /><br />
         </div >
+				<br />
       </div>
 
-    </div>
 
-
-  <div id="agenda" >
-     <div >
-        <h3>The agenda will be announced shortly</h3>
+  <a name="agenda"></a>
+	<div class="agenda"><br /></div>
+     <div class="container-fluid agenda">
+        <div class="col-md-12">
+        <h3 class="bold fontType">-The agenda will be announced shortly-</h3><br />
         <h4></h4>
     </div>
   </div>
 
-  <div id="dates" >
-    <div >
-      <h3>Important Dates</h3>
-    </div>
-    <div>
-        <ul>
+  <a name="dates"></a>
+	<div class="topicsSec"><br /></div>
+    <div class="container-fluid theDate fontType">
+        <div class="theBorder container">
+					<br />
+      <h3 class="bold">Important Dates</h3>
+        <ul class="noList">
          <li>Registration opens on: November 1, 2017</li>
          <li>Registration closes on: December 1, 2017</li>
          <li>Workshop will be held on: December 21, 2017</li>
         </ul>
+        <br/><br/>
     </div>
   </div>
 
-  <div id="committe">
-       <h3 >Committee</h3>
-       <div>
-        <h4>Workshop Chairs</h4>
-        <ul>
-          <li><a href="https://www.tacc.utexas.edu/about/directory/ritu-arora">Ritu Arora</a>,Texas Advanced Computing Center, USA</li>
+<div class="col-md-6">
+  <a name="committe"></a>
+  <div class="container-fluid thecommitte">
+
+       <h3 class="bold">Committee</h3>
+        <h4 class="bold">Workshop Chairs</h4>
+        <ul class="noList">
+          <li><a href="https://www.tacc.utexas.edu/about/directory/ritu-arora" class="none">Ritu Arora</a>,Texas Advanced Computing Center, USA</li>
           <li>Sharda Dixit, C-DAC Pune, India</li>
         </ul>
-       
-         <h4>Industry Liaisons</h4>
-           <ul>
+
+         <h4 class="bold">Industry Liaisons</h4>
+           <ul class="noList">
             <li>TBD1, India</li>
             <li>TBD2, India</li>
          </ul>
-       
-         <h4>Publicity</h4>
-         <ul>
+
+         <h4 class="bold">Publicity</h4>
+         <ul class="noList">
           <li>Nitin Sukhija, Slippery Rock University of Pennsylvania, USA</li>
           <li>TBD4</li>
          </ul>
-  
-         <h4>Fund Raising</h4>
-         <ul>
+
+         <h4 class="bold">Fund Raising</h4>
+         <ul class="noList">
           <li>TBD5</li>
          </ul>
-         
-        <h4>Program Committee</h4>
-        <ul>
+
+        <h4 class="bold">Program Committee</h4>
+        <ul class="noList">
             <li>Amarjeet Sharma, C-DAC, Pune, India</li>
             <li>Anil Kumar Gupta, C-DAC, Pune, India</li>
             <li>Lars Koesterke, Texas Advanced Computing Center, USA</li>
@@ -123,54 +212,139 @@ Benefits to students: network with HPC and advanced software engineering profess
             <li>Soham Ghosh, C-DAC, Pune, India</li>
             <li>Suman Roychoudhury, TCS, India</li>
             <li>VCV Rao, C-DAC, Pune, India</li>
-           
+
         </ul>
+
+				<h4 class="bold">Webmaster</h4>
+				<ul class="noList">
+				 <li><a href="http://geraldjoshua.com" class="none">Gerald Joshua</a>, TACC, Austin</li>
+				</ul>
+        <br />
     </div>
  </div>
-
-  <div id="sponsor" >
-    <div >
-      <h3>Current Sponsors</h3>
-      <ul>
-        <li>Center for Development of Advanced Computing </li>
+<div class="col-md-6">
+  <a name="sponsor"></a>
+      <div class="container-fluid sponsor">
+      <h3 class="bold">Current Sponsors</h3>
+      <ul class="noList fontType">
+        <li>Centre for Development of Advanced Computing</li>
         <li>National Science Foundation (NSF)</li>
         <li>Texas Advanced Computing Center</li>
-       
+
       </ul>
-    </div>
-    
-    <div>
-      <h3>Sponsorship Levels</h3>
-      <ul>
-      <li>Platinum Level: US $7000, one speaker-slot, large-sized logo in the header area of the website, name displayed prominently on the signage in workshop area, promotion through workshop advertisements, 10 complimentary registrations, URL to the sponsor website added to the workshop website, up to ten products and services highlighted through blogs on the workshop forum page, invitation on a panel</li>
-      <li>Gold Level: US $5000, medium-sized logo on the website, signage in workshop area, promotion through workshop advertisements, up to five products and services highlighted through blogs on the workshop forum page, invitation on a panel, 5 complimentary registrations </li>
-      <li>Silver Level: US $3000, logo on the website, promotion through workshop advertisements, one product or service highlighted through a blog on the workshop forum page, 3 complimentary registrations </li>
-      <li>Bronze Level: US $2000, logo on the website, promotion through workshop advertisements, 2 complimentary registrations </li>
+
+      <h3 class="bold">Sponsorship Levels</h3>
+      <ul class="noList fontType">
+      <li><span class="bold">Platinum Level:</span> US $7000, one speaker-slot, large-sized logo in the header area of the website, name displayed prominently on the signage in workshop area, promotion through workshop advertisements, 10 complimentary registrations, URL to the sponsor website added to the workshop website, up to ten products and services highlighted through blogs on the workshop forum page, invitation on a panel</li>
+			<br/>
+      <li><span class="bold">Gold Level:</span> US $5000, medium-sized logo on the website, signage in workshop area, promotion through workshop advertisements, up to five products and services highlighted through blogs on the workshop forum page, invitation on a panel, 5 complimentary registrations </li><br />
+      <li><span class="bold">Silver Level:</span> US $3000, logo on the website, promotion through workshop advertisements, one product or service highlighted through a blog on the workshop forum page, 3 complimentary registrations </li><br />
+      <li><span class="bold">Bronze Level:</span> US $2000, logo on the website, promotion through workshop advertisements, 2 complimentary registrations </li>
       </ul>
-    </div>
-  </div>
+     </div>
+          </div>
 
 
-<div id="register" >
-    <div >
-      <h3> Registration</h3>
-    </div>
-    <div>
-      <p> If you are attending the SCEC 2017 workshop, and would like to have the lunch and internet provided at the venue, you will need to pay US $35 (approximately Rupees 2500) at the workshop venue to cover the cost of the lunch and internet. However, if you are not interested in having the lunch or using the internet at the workshop venue, you are very welcome to attend the workshop without any cost. In either case, all the workshop attendees should register in advance by filling the following form: <a href=https://tinyurl.com/yc2sglyv> Registration Form</a>.
+
+<div class="col-md-12 marginTop">
+<a name="register"></a>
+<div class="theBorder container marginTop">
+    	<br />
+      <h3 class="bold makeItCenter"> Registration</h3>
+
+      <p class="fontType"> The registration fees for the workshop is Rupees 1000 (US $16) and can be paid at the venue using cash or credit/debit card. This fees will be used to offset the cost of food and beverages that will be offered at the venue. All the workshop attendees should register in advance by filling the following form: </p>
+			<div class="makeItCenter">
+			<a href="https://tinyurl.com/yc2sglyv" target="_blank" class="btn btn-lg" title="Registration"> Registration Form
+			</a></div>
+
       </p>
-    </div>
+      <br/>
   </div>
-  
-  
-  <div id="contact" >
-    <div >
+
+  <a name="contact"></a>
+    <div class="row contact fontType">
+			<div class="container-fluid makeItCenter">
       <h3> Contact</h3>
+
+      <p>For any questions regarding the workshop, please email Ritu Arora (rauta@tacc.utexas.edu) or Sharda Dixit (sharda@cdac.in).</p><br />
     </div>
-    <div>
-      <p>For any questions regarding the workshop, please email Ritu Arora (rauta@tacc.utexas.edu) or Sharda Dixit (sharda@cdac.in).</p>
-    </div>
-  </div>
-  
+</div>
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  	<script type="text/javascript">
+	$(function () {
+	  $(document).scroll(function () {
+	    var fixedTopNavBar = $("#navbarTop");
+	    fixedTopNavBar.toggleClass('scrolled', $(this).scrollTop() > fixedTopNavBar.height());
+	  });
+	});
+
+	function scrollToAnchor(theName){
+    var aTag = $("a[name='"+ theName +"']");
+    $('html,body').animate({scrollTop: aTag.offset().top},'slow');
+	}
+
+	$("#overwiewOption").click(function() {
+   	scrollToAnchor('overview');
+	});
+
+
+	$("#datesOption").click(function() {
+   	scrollToAnchor('dates');
+	});
+
+	$("#topicsOption").click(function() {
+   	scrollToAnchor('topics');
+	});
+
+	$("#agendaOption").click(function() {
+   	scrollToAnchor('agenda');
+	});
+
+	$("#committeeOption").click(function() {
+   	scrollToAnchor('committe');
+	});
+
+	$("#sponsorsOption").click(function() {
+   	scrollToAnchor('sponsor');
+	});
+
+	$("#registrationOption").click(function() {
+   	scrollToAnchor('register');
+	});
+
+
+
+
+	$("#overwiewOptionCollapse").click(function() {
+		scrollToAnchor('overview');
+	});
+
+
+	$("#datesOptionCollapse").click(function() {
+		scrollToAnchor('dates');
+	});
+
+	$("#topicsOptionCollapse").click(function() {
+		scrollToAnchor('topics');
+	});
+
+	$("#agendaOptionCollapse").click(function() {
+		scrollToAnchor('agenda');
+	});
+
+	$("#committeeOptionCollapse").click(function() {
+		scrollToAnchor('committe');
+	});
+
+	$("#sponsorsOptionCollapse").click(function() {
+		scrollToAnchor('sponsor');
+	});
+
+	$("#registrationOptionCollapse").click(function() {
+		scrollToAnchor('register');
+	});
+
+  	</script>
 </body>
 </html>
-

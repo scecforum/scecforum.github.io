@@ -94,6 +94,11 @@ a:hover {
 	cursor: pointer;
 }
 
+.justified {
+    text-align: justify;
+    text-justify: inter-word;
+}
+
 .makeItCenter {
   text-align: center;
 }
@@ -248,9 +253,21 @@ background-color: #21324f;
 	font-weight: bold;
 }
 
+.sponsorLogos {
+  height: 100px;
+  width: 150px;
+}
+
+.sponsorMargin {
+  margin-right: 50px;
+}
+
+.onlyBorder {
+      border: 15px solid #d6a780;
+}
+
 .theBorder {
-    border: 6px solid #d6a780;
-    margin-bottom: 40px;
+    padding-bottom: 40px;
 }
 
 .none {

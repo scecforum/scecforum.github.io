@@ -268,8 +268,13 @@ background-color: #21324f;
   padding-right: 40px;
 }
 
+.backgroundBlue {
+  background-color: #21324f;
+}
+
 .row1 {
   margin-right: 0px;
+  padding-right: 0px;
 }
 
 .sponsorMargin1 {

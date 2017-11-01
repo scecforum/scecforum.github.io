@@ -18,23 +18,22 @@
 		<header class="top">
 	 </header>
 	 <div class="frontOfPage">
+		 <div class="container">
  		<nav class="navbar navbar-fixed-top hidden-xs" id="navbarTop">
- 			<div class="container-fluid">
 
- 				<div>
- 						<ul class="nav navbar-nav navbar-right">
- 							<li><a id="overwiewOption" href="#">Overview</a></li>
- 							<li><a id="topicsOption" href="#">Topics</a></li>
- 							<li><a id="agendaOption" href="#">Agenda</a></li>
- 							<li><a id="datesOption" href="#">Dates</a></li>
- 							<li><a id="committeeOption" href="#">Committee</a></li>
- 							<li><a id="sponsorsOption" href="#">Sponsors</a></li>
- 							<li><a id="registrationOption" href="#">Registration</a></li>
-							<li><a id="contactOptionCollapse" href="#">Contact</a></li>
- 						</ul>
- 				</div>
- 			</div>
+					<ul class="nav navbar-nav navbar-right">
+						<li><a id="overwiewOption" href="#">Overview</a></li>
+						<li><a id="topicsOption" href="#">Topics</a></li>
+						<li><a id="agendaOption" href="#">Agenda</a></li>
+						<li><a id="datesOption" href="#">Dates</a></li>
+						<li><a id="committeeOption" href="#">Committee</a></li>
+						<li><a id="sponsorsOption" href="#">Sponsors</a></li>
+						<li><a id="registrationOption" href="#">Registration</a></li>
+						<li><a id="contactOptionCollapse" href="#">Contact</a></li>
+					</ul>
+
  		</nav>
+		</div>
 
 
  		<nav class="navbar navbar-inverse navbar-fixed-top hidden-lg hidden-xl hidden-md hidden-sm">
@@ -95,8 +94,8 @@
  		<div class="container-fluid hidden-md hidden-lg hidden-xl">
  			<div class="eventTitle1">
  				<h1 class="text-center">First Workshop on Software Challenges to Exascale Computing</h1>
- 				<h2 class="text-center">December 17, 2017<br />
- 				Jaipur, Rajasthan, India</h2>
+ 				<h2 class="text-center">December 17, 2017<br /><b>9:30 AM - 5:30 PM</b><br/>
+ 				Jaipur, Rajasthan, India</a></h2>
  			</div>
  		</div>
  		</div>
@@ -174,7 +173,7 @@
   </div>
 </div>
  <div class="row row1">
-<div class="col-md-6">
+<div class="col-md-6 backgroundBlue">
   <a name="committe"></a>
   <div class="container-fluid thecommitte">
 		<br />
@@ -315,9 +314,6 @@
 	$("#registrationOption").click(function() {
    	scrollToAnchor('register');
 	});
-
-
-
 
 	$("#overwiewOptionCollapse").click(function() {
 		scrollToAnchor('overview');

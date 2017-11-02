@@ -1,71 +1,65 @@
 <!DOCTYPE html>
 <html>
 <head>
-	 <meta charset="UTF-8" />
-	 <meta name="viewport" content="width=device-width, initial-scale=1">
-	 <title>SCEC 2017 - First Workshop on Software Challenges to Exascale Computing (SCEC)</title>
-	 <meta name="keywords" content="HPC, Supercomputing, Exascale, Software, SCEC, SCEC17, Advanced Software Engineering">
-	 <meta name="description" content="SCEC17 - First Workshop on Software Challenges to Exascale Computing">
-	 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-	 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-	 <link rel="stylesheet" type="text/css" href="style.css">
-	 <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
-	 <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
-	 <link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
+	  <meta charset="UTF-8" />
+	  <meta name="viewport" content="width=device-width, initial-scale=1">
+	  <title>SCEC 2017 - First Workshop on Software Challenges to Exascale Computing (SCEC)</title>
+	  <meta name="keywords" content="HPC, Supercomputing, Exascale, Software, SCEC, SCEC17, Advanced Software Engineering">
+	  <meta name="description" content="SCEC17 - First Workshop on Software Challenges to Exascale Computing">
+	  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+	  <link rel="stylesheet" type="text/css" href="style.css">
+	  <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+	  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+	  <link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
 </head>
 
 <body>
-		<header class="top">
-	 </header>
-	 <div class="frontOfPage">
-		 <div class="container">
- 		<nav class="navbar navbar-fixed-top hidden-xs" id="navbarTop">
+		<!-- Background for top part -->
+		<header class="topSectionBG">
+	  </header>
 
-					<ul class="nav navbar-nav navbar-right">
-						<li><a id="overwiewOption" href="#">Overview</a></li>
-						<li><a id="topicsOption" href="#">Topics</a></li>
-						<li><a id="agendaOption" href="#">Agenda</a></li>
-						<li><a id="datesOption" href="#">Dates</a></li>
-						<li><a id="committeeOption" href="#">Committee</a></li>
-						<li><a id="sponsorsOption" href="#">Sponsors</a></li>
-						<li><a id="CFAOptionCollapse" href="#">CFA</a></li>
-						<li><a id="registrationOption" href="#">Registration</a></li>
-						<li><a id="contactOptionCollapse" href="#">Contact</a></li>
-						
-					</ul>
-
- 		</nav>
-		</div>
-
-
- 		<nav class="navbar navbar-inverse navbar-fixed-top hidden-lg hidden-xl hidden-md hidden-sm">
- 			<div class="container-fluid">
- 				<div class="navbar-header">
- 						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
- 							<span class="icon-bar"></span>
- 							<span class="icon-bar"></span>
- 							<span class="icon-bar"></span>
- 						</button>
-
- 				</div>
-
- 					<div class="collapse navbar-collapse" id="myNavbar">
- 						<ul class="navbar-right">
-							<li><a id="overwiewOptionCollapse" href="#">Overview</a></li>
- 							<li><a id="topicsOptionCollapse" href="#">Topics</a></li>
- 							<li><a id="agendaOptionCollapse" href="#">Agenda</a></li>
- 							<li><a id="datesOptionCollapse" href="#">Dates</a></li>
- 							<li><a id="committeeOptionCollapse" href="#">Committee</a></li>
- 							<li><a id="sponsorsOptionCollapse" href="#">Sponsors</a></li>
-							<li><a id="CFAOptionCollapse" href="#">CFA</a></li>
- 							<li><a id="registrationOptionCollapse" href="#">Registration</a></li>
-							<li><a id="contactOptionCollapse" href="#">Contact</a></li>
-							
- 						</ul>
- 					</div>
-
- 			</div>
- 		</nav>
+		<!-- Wrapper for all texts on the top part -->
+		<div class="topSectionWrapper">
+				<!-- Navbar size fits the screen -->
+	  		<nav class="navbar navbar-fixed-top longNavbar" id="navbarTop">
+						<ul class="nav navbar-nav navbar-right">
+								<li id="overwiewOption"><a href="#">Overview</a></li>
+								<li id="topicsOption"><a href="#">Topics</a></li>
+								<li id="agendaOption"><a href="#">Agenda</a></li>
+								<li id="datesOption"><a href="#">Dates</a></li>
+								<li id="committeeOption"><a href="#">Committee</a></li>
+								<li id="sponsorsOption"><a href="#">Sponsors</a></li>
+								<li id="CFAOption"><a href="#">CFA</a></li>
+								<li id="registrationOption"><a href="#">Registration</a></li>
+								<li id="contactOption"><a href="#">Contact</a></li>
+						</ul>
+				</nav>
+				<!-- Navbar collapses since it does not fit the screen -->
+				<nav class="navbar navbar-inverse navbar-fixed-top shortNavbar">
+			 			<div class="container-fluid">
+			 				<div class="navbar-header">
+			 						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+			 							<span class="icon-bar"></span>
+			 							<span class="icon-bar"></span>
+			 							<span class="icon-bar"></span>
+			 						</button>
+			 				</div>
+			 					<div class="collapse navbar-collapse" id="myNavbar">
+			 						<ul class="navbar-right">
+										<li id="overwiewOption"><a href="#">Overview</a></li>
+										<li id="topicsOption"><a href="#">Topics</a></li>
+										<li id="agendaOption"><a href="#">Agenda</a></li>
+										<li id="datesOption"><a href="#">Dates</a></li>
+										<li id="committeeOption"><a href="#">Committee</a></li>
+										<li id="sponsorsOption"><a href="#">Sponsors</a></li>
+										<li id="CFAOption"><a href="#">CFA</a></li>
+										<li id="registrationOption"><a href="#">Registration</a></li>
+										<li id="contactOption"><a href="#">Contact</a></li>
+			 						</ul>
+			 					</div>
+			 			</div>
+			 		</nav>
 
 
  		<div class="container-fluid hidden-xs hidden-sm">
@@ -104,7 +98,7 @@
  		</div>
  		</div>
 
-	<a href="#" name="overview"></a>
+	<a href="#" name="overwiewOption"></a>
 	<div class="agenda"><br /></div>
      <div class="container-fluid overviewSec">
             <div class="titleScec">
@@ -131,7 +125,7 @@
             </div>
         </div>
 
-      <a name="topics"></a>
+      <a name="topicsOption"></a>
 			<div class="onlyBorder">
         <div class="container-fluid topicsSec">
         	<div class="theBorder container">
@@ -152,7 +146,7 @@
       </div>
 			</div>
 
-  <a name="agenda"></a>
+  <a name="agendaOption"></a>
 	<div class="agenda"><br /></div>
      <div class="container-fluid agenda">
         <div class="col-md-12">
@@ -161,7 +155,7 @@
     </div>
   </div>
 
-  <a name="dates"></a>
+  <a name="datesOption"></a>
 	<div class="topicsSec onlyBorder">
     <div class="container-fluid theDate fontType">
         <div class="theBorder container">
@@ -181,7 +175,7 @@
 </div>
  <div class="row row1">
 <div class="col-md-6 backgroundBlue">
-  <a name="committe"></a>
+  <a name="committeeOption"></a>
   <div class="container-fluid thecommitte">
 		<br />
        <h2 class="bold">Committee</h2>
@@ -226,7 +220,7 @@
     </div>
  </div>
 <div class="col-md-6 marginLeft">
-  <a name="sponsor"></a>
+  <a name="sponsorsOption"></a>
 	<br />
       <div class="container-fluid">
       <h2 class="bold">Current Sponsors</h2>
@@ -251,23 +245,19 @@
       <li><span class="bold"><u>Bronze Level:</u></span> <br />US $2000, logo on the website, promotion through workshop advertisements, 2 complimentary registrations </li>
       </ul>
      </div>
-	 </div>     <br /><br /> </div>
+	 </div></div>
 
 </div>
 
 <div class="col-md-12">
-<a name="CFA"></a>
+<a name="CFAOption"></a>
 <div class="theBorder container marginTop">
 	<hr style="height:6px;border:none;color:#333;background-color:#333;"/>
-			<br />
 			<h3 class="bold makeItCenter"> CFA (Call For Abstracts)</h3>
 			<br />
 			<p class="fontType justified"> The SCEC workshop will include a track for lightning talks during which ten-minute talks will be presented in a sequence. The talks will provide a high-level overview of the topics that are aligned with the theme of the workshop. While the time allocated for the lightening talks may not be enough for presenting the fine details of the chosen topic, it could be enough for including key information that piques the interest of the audience for an engaging discussion after the talk. The abstract and slides of the talks will be published on the workshop website. There can be multiple authors on a submission but only one presenter is permitted for each lightning talk due to time-constraints.
 <br/><br/><b>Guidelines for preparing the submission for the lightning talk are as follows:</b><br /><br />
 In maximum 300 words, the abstract should answer the following questions on a topic that is relevant to the workshop:<br /></p>
-
-
-
 <ul class="noList fontType justified">
 <li><span class="bold">• What is the software challenge/problem that is being solved?</span></li>
 <li><span class="bold">• Why is this challenge/problem important to the HPC and/or the advanced software engineering community?</li>
@@ -276,16 +266,16 @@ In maximum 300 words, the abstract should answer the following questions on a to
 <li><span class="bold">• If applicable, how do the preliminary results compare to those of the related work?</span></li>
 </ul><br />
 <p class="fontType justified">A rough draft of the proposed presentation (up to 5 slides) should also be submitted along with the abstract.
-The abstracts and the slides must be submitted in the PDF format through the submission system at the following URL:<div class="makeItCenter"> <a href="https://easychair.org/conferences/?conf=scec17" target="_blank" class="btn btn-lg" title="Submit PDF"> SUBMIT
-</a></div></p><br />
-*Abstracts will not be accepted over email. Abstracts which are incomplete or received after the deadline will not be considered. The submission system will close on <b>November 15, 2017</b>.
-	<p><br/><br/><span class="bold">Presentation guidelines:</p>
-Lightning talk presentations are limited to one per speaker. Co-authors are not included in this rule. A person can be a co-author on any number of abstracts.</p><br /><hr style="height:6px;border:none;color:#333;background-color:#333;"/>
+The abstracts and the slides must be submitted in the PDF format through the submission system at the following URL: <a href="https://easychair.org/conferences/?conf=scec17" target="_blank" class="submitPdf" title="Submit PDF">https://easychair.org/conferences/?conf=scec17
+</a></p>
+<span class="abstract">*</span>Abstracts will not be accepted over email. Abstracts which are incomplete or received after the deadline will not be considered. The submission system will close on <b>November 15, 2017</b>.
+	<p><br/><span class="bold fontType">Presentation guidelines:</p class="fontType">
+Lightning talk presentations are limited to one per speaker. Co-authors are not included in this rule. A person can be a co-author on any number of abstracts.</p><hr style="height:6px;border:none;color:#333;background-color:#333;"/>
 </div></div>
 
 
 <div class="col-md-12 onlyBorder">
-<a name="register"></a>
+<a name="registrationOption"></a>
 <div class="theBorder container marginTop">
     	<br />
       <h3 class="bold makeItCenter"> Registration</h3>
@@ -298,7 +288,7 @@ Lightning talk presentations are limited to one per speaker. Co-authors are not 
   </div></div>
 
 <div class="col-md-12">
-  <a name="contact"></a>
+  <a name="contactOption"></a>
     <div class="row contact fontType">
 			<div class="container-fluid makeItCenter">
       <h3> Contact</h3>
@@ -309,85 +299,28 @@ Lightning talk presentations are limited to one per speaker. Co-authors are not 
 </div>
   	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  	<script type="text/javascript">
-	$(function () {
-	  $(document).scroll(function () {
-	    var fixedTopNavBar = $("#navbarTop");
-	    fixedTopNavBar.toggleClass('scrolled', $(this).scrollTop() > fixedTopNavBar.height());
-	  });
-	});
+  	<script>
+		//Once user scrolls down or up, the background of the top navbar will change and
+		//the navbar will still be on the top of the page
+		$(function () {
+			  $(document).scroll(function () {
+				    var fixedTopNavBar = $("#navbarTop");
+				    fixedTopNavBar.toggleClass('scrolled', $(this).scrollTop() > fixedTopNavBar.height());
+			  });
+		});
 
-	function scrollToAnchor(theName){
-    var aTag = $("a[name='"+ theName +"']");
-    $('html,body').animate({scrollTop: aTag.offset().top},'slow');
-	}
+		//Navigate which option users click
+		$("#navbarTop").each(function(){
+				$("li").click(function(){
+						scrollToAnchor(this.id);
+				});
+		});
 
-	$("#overwiewOption").click(function() {
-   	scrollToAnchor('overview');
-	});
-
-
-	$("#datesOption").click(function() {
-   	scrollToAnchor('dates');
-	});
-
-	$("#topicsOption").click(function() {
-   	scrollToAnchor('topics');
-	});
-
-	$("#agendaOption").click(function() {
-   	scrollToAnchor('agenda');
-	});
-
-	$("#committeeOption").click(function() {
-   	scrollToAnchor('committe');
-	});
-
-	$("#sponsorsOption").click(function() {
-   	scrollToAnchor('sponsor');
-	});
-
-	$("#registrationOption").click(function() {
-   	scrollToAnchor('register');
-	});
-
-	$("#overwiewOptionCollapse").click(function() {
-		scrollToAnchor('overview');
-	});
-
-
-	$("#datesOptionCollapse").click(function() {
-		scrollToAnchor('dates');
-	});
-
-	$("#topicsOptionCollapse").click(function() {
-		scrollToAnchor('topics');
-	});
-
-	$("#agendaOptionCollapse").click(function() {
-		scrollToAnchor('agenda');
-	});
-
-	$("#committeeOptionCollapse").click(function() {
-		scrollToAnchor('committe');
-	});
-
-	$("#sponsorsOptionCollapse").click(function() {
-		scrollToAnchor('sponsor');
-	});
-
-	$("#registrationOptionCollapse").click(function() {
-		scrollToAnchor('register');
-	});
-
-	$("#contactOptionCollapse").click(function() {
-		scrollToAnchor('contact');
-	});
-
-	$("#CFAOptionCollapse").click(function() {
-		scrollToAnchor('CFA');
-	});
-
+		//Scroll to the section that users are interested in
+		function scrollToAnchor(theName){
+		    var aTag = $("a[name='"+ theName +"']");
+		    $('html,body').animate({scrollTop: aTag.offset().top},'slow');
+		}
   	</script>
 </body>
 </html>

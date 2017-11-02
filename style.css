@@ -3,6 +3,14 @@
   padding:0;
 }
 
+.onlyBorder1 {
+    border: 15px solid #42c2f4;
+}
+
+.backgroundAndFont {
+  background-color: #21324f;
+}
+
 .eventTitle {
   margin: auto;
   position: absolute;
@@ -268,8 +276,13 @@ background-color: #21324f;
   padding-right: 40px;
 }
 
+.backgroundBlue {
+  background-color: #21324f;
+}
+
 .row1 {
   margin-right: 0px;
+  padding-right: 0px;
 }
 
 .sponsorMargin1 {

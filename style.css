@@ -358,6 +358,10 @@ background-color: #21324f;
       border: 15px solid #d6a780;
 }
 
+.onlyBorder2 {
+      border: 15px solid #000000;
+}
+
 .theBorder {
     padding-bottom: 40px;
 }

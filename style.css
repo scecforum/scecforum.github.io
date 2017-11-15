@@ -9,7 +9,7 @@
   -o-filter: blur(3px);
   -ms-filter: blur(3px);
   filter: blur(3px);
-  background-image:url("conference.jpg");
+  background-image:url("../img/conference.jpg");
   background-size:cover;
   background-position:center;
   height:100vh;
@@ -77,6 +77,37 @@
   color: red;
   font-weight: bold;
   font-size: 22px;
+}
+
+.hrSpeaker {
+  width: 20px;
+}
+
+.divSpeaker{
+  margin-bottom: 20px;
+}
+
+.imgSpeakerWrapper {
+  width: 20%;
+  height: 20%;
+  float: left;
+}
+
+.speakerDesc {
+  margin-left: 40px;
+  width: 70%;
+  float: left;
+}
+
+.divSpeaker2 {
+  padding-bottom: 40px;
+}
+
+.speakerDesc {
+  margin-left: 40px;
+  width: 70%;
+  float: left;
+  margin-top: 15px;
 }
 
 .submitPdf {
@@ -238,10 +269,10 @@ a:hover {
 }
 
 .agenda {
-	padding-top: 15px;
-background-color: #21324f;
+  background-color: #21324f;
 	color: #ffffff;
 	text-align: center;
+  padding-bottom: 40px;
 }
 
 .eventTitleDetails {

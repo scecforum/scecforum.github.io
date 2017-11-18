@@ -87,27 +87,8 @@
   margin-bottom: 20px;
 }
 
-.imgSpeakerWrapper {
-  width: 20%;
-  height: 20%;
-  float: left;
-}
-
-.speakerDesc {
-  margin-left: 40px;
-  width: 70%;
-  float: left;
-}
-
 .divSpeaker2 {
   padding-bottom: 40px;
-}
-
-.speakerDesc {
-  margin-left: 40px;
-  width: 70%;
-  float: left;
-  margin-top: 15px;
 }
 
 .submitPdf {
@@ -219,6 +200,26 @@ a:hover {
 .btn-lg {
   	padding: 18px 27px;
  	font-size: 20px;
+}
+
+.rmBottomMargin {
+  margin-bottom: 0px;
+}
+
+.rmTopMargin {
+  margin-top: 0px;
+}
+
+.redBackground {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: #f46758;
+    color: white;
+    padding-left: 0px;
+}
+
+.speakerDesc {
+  margin-top: 20px;
 }
 
 .eventTitle1 > h1{

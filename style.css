@@ -187,6 +187,10 @@ a:hover {
     text-justify: inter-word;
 }
 
+.left-aligned {
+    text-align: left;
+}
+
 .makeItCenter {
   text-align: center;
 }
@@ -211,11 +215,10 @@ a:hover {
 }
 
 .redBackground {
-    padding-top: 40px;
-    padding-bottom: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     background-color: #F8DCBF;
     color: black;
-    padding-left: 0px;
 }
 
 .speakerDesc {

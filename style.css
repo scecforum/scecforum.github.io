@@ -19,7 +19,7 @@
   z-index: 1;
 }
 
-@media only screen and (max-width: 918px){
+@media only screen and (max-width: 768px){
   .longNavbar {
     display: none;
   }
@@ -59,9 +59,57 @@
   }
 }
 
-@media only screen and (min-width: 918px){
+@media only screen and (min-width: 768px){
   .shortNavbar {
     display: none;
+  }
+}
+
+@media only screen and (max-width: 992px){
+  .hideAgendaTitle-md {
+      display: none;
+  }
+}
+
+@media only screen and (min-width: 993px){
+  .hideAgendaTitle-lg-sm {
+      display: none;
+  }
+}
+
+@media only screen and (max-width: 831px){
+  .hideAgendaTitle-lg-sm1 {
+      display: none;
+  }
+}
+
+@media only screen and (min-width: 831px){
+  .hideAgendaTitle-lg1 {
+      display: none;
+  }
+}
+
+@media only screen and (max-width: 477px){
+  .hideAgendaTitle-max477 {
+      display: none;
+  }
+}
+
+@media only screen and (min-width: 477px){
+  .hideAgendaTitle-min477 {
+      display: none;
+  }
+}
+
+@media only screen and (max-width: 399px){
+  .hideAgendaTitle-max399 {
+      display: none;
+  }
+}
+
+@media only screen and (min-width: 399px){
+  .hideAgendaTitle-min399 {
+      display: none;
   }
 }
 
@@ -276,7 +324,7 @@ a:hover {
   background-color: #21324f;
 	color: #ffffff;
 	text-align: center;
-  padding-bottom: 40px;
+  padding-bottom: 20px;
 }
 
 .hrAgenda {
@@ -326,6 +374,7 @@ background-color: #21324f;
 
 .speakersPic {
   width: 10em;
+  height: 10em;
 }
 
 .seperator{

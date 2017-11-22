@@ -139,6 +139,15 @@
   padding-bottom: 40px;
 }
 
+.avinashPic {
+  width: 10em;
+}
+
+.aniruddhaPic {
+  width: 10em;
+  height: 12em;
+}
+
 .submitPdf {
   color: black;
 }

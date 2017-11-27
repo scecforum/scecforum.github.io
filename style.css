@@ -19,7 +19,7 @@
   z-index: 1;
 }
 
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 1248px){
   .longNavbar {
     display: none;
   }
@@ -59,7 +59,7 @@
   }
 }
 
-@media only screen and (min-width: 768px){
+@media only screen and (min-width: 1249px){
   .shortNavbar {
     display: none;
   }
@@ -83,7 +83,7 @@
   }
 }
 
-@media only screen and (min-width: 831px){
+@media only screen and (min-width: 832px){
   .hideAgendaTitle-lg1 {
       display: none;
   }
@@ -95,7 +95,7 @@
   }
 }
 
-@media only screen and (min-width: 477px){
+@media only screen and (min-width: 478px){
   .hideAgendaTitle-min477 {
       display: none;
   }
@@ -107,14 +107,50 @@
   }
 }
 
-@media only screen and (min-width: 399px){
+@media only screen and (min-width: 400px){
   .hideAgendaTitle-min399 {
       display: none;
   }
 }
 
+@media only screen and (max-width: 760px){
+  .hideBelow760 {
+    display: none;
+  }
+}
+@media only screen and (min-width: 761px){
+  .hideAbove760 {
+    display: none;
+  }
+}
+@media only screen and (max-width: 752px){
+  .hideBelow752 {
+    display: none;
+  }
+}
+@media only screen and (max-width: 499px){
+  .hideBelow500 {
+    display: none;
+  }
+}
+@media only screen and (min-width: 500px){
+  .hideAbove500 {
+    display: none;
+  }
+}
+@media only screen and (max-width: 409px){
+  .hideBelow409 {
+    display: none;
+  }
+}
+
 .onlyBorder1 {
     border: 15px solid #42c2f4;
+}
+
+.intelLogo {
+  width: 4.5em;
+  height: 3em;
 }
 
 .backgroundAndFont {
@@ -161,6 +197,34 @@
   right: 0;
   color:#fff;
   height:150px;
+}
+
+.styleFont {
+  font-size: .8em;
+}
+
+.styleFont1 {
+    font-size: .9em;
+}
+
+.styleFont2 {
+   font-size: .9em;
+}
+
+.paddingLeftEventTime {
+  padding-left: 0px;
+}
+
+.paddingLeftSpeaker {
+  margin-left: -2em;
+}
+
+.paddingLeftEventTitle {
+  padding-left: 1em;
+}
+
+.addMarginTopPic {
+  margin-top: 1.5em;
 }
 
 .eventTitle1 {
@@ -278,8 +342,20 @@ a:hover {
     color: black;
 }
 
+.desc {
+  margin-top: 1em;
+}
+
 .speakerDesc {
   margin-top: 20px;
+}
+
+.ChaudharyDesc760max {
+  margin-top: -.3em;
+}
+
+.ChaudharyDesc760min {
+  margin-top: 2em;
 }
 
 .eventTitle1 > h1{

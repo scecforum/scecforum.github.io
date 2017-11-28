@@ -153,6 +153,26 @@
   height: 3em;
 }
 
+.intelLogoOnSponsors {
+  width: 15em;
+  height: 15em;
+}
+
+.intelLogoWrapper {
+  margin-bottom: -4em;
+  margin-top: -.4em;
+}
+
+.marginSponsors {
+  margin-top: 1em;
+  margin-bottom: -10em;
+}
+
+.curSponsorTitle {
+  position: absolute;
+  z-index: 1;
+}
+
 .backgroundAndFont {
   background-color: #21324f;
 }

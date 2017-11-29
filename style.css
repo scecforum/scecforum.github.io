@@ -19,7 +19,7 @@
   z-index: 1;
 }
 
-@media only screen and (max-width: 1180px){
+@media only screen and (max-width: 1256px){
   .longNavbar {
     display: none;
   }
@@ -63,7 +63,7 @@
     display: none;
   }
 }
-@media only screen and (min-width: 1181px){
+@media only screen and (min-width: 1257px){
   .shortNavbar {
     display: none;
   }
@@ -101,6 +101,18 @@
 
 @media only screen and (min-width: 478px){
   .hideAgendaTitle-min477 {
+      display: none;
+  }
+}
+
+@media only screen and (max-width: 376px){
+  .hidemax376 {
+      display: none;
+  }
+}
+
+@media only screen and (min-width: 377px){
+  .hidemin376 {
       display: none;
   }
 }
@@ -164,9 +176,12 @@
 }
 
 .intelLogo {
-  width: 5.3em;
-  height: 5.3em;
-  margin-left: 5em;
+  width: 6em;
+  height: 3em;
+}
+
+.nvdiaLogo {
+  width:
 }
 
 .intelLogoOnSponsors {
@@ -174,9 +189,23 @@
   height: 20em;
 }
 
+.intelLogoOnSponsors-sm {
+  width: 15em;
+  height: 15em;
+}
+
 .intelLogoWrapper {
   margin-bottom: -6.2em;
   margin-top: -1.7em;
+}
+
+.intelLogoWrapper-sm {
+  margin-bottom: -5em;
+  margin-top: 0em;
+}
+
+.generousSponsor {
+  margin-left: -1em;
 }
 
 .marginSponsors {
@@ -458,9 +487,17 @@ a:hover {
 
 .thecommitte {
 	padding-top: 15px;
-background-color: #21324f;
+  background-color: #21324f;
 	color: #ffffff;
 	padding-left: 40px;
+}
+
+.theCommitte992Above {
+  padding-bottom: 19em;
+}
+
+.theCommitte992Below {
+  padding-bottom: 3em;
 }
 
 .place {
@@ -528,6 +565,18 @@ background-color: #21324f;
 
 .bold {
 	font-weight: bold;
+}
+
+.nvidiaLogo {
+  height: 7em;
+  width: 7em;
+  margin-left: 4em;
+}
+
+.sponsorsLogo-sm {
+  height: 5em;
+  width: 5em;
+  margin-left: 5.5em;
 }
 
 .sponsorLogos {

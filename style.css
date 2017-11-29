@@ -178,7 +178,7 @@
 .intelLogo {
   width: 7.5em;
   height: 5em;
-  transition-duration: 0.4s;
+  transition-duration: 0.9s;
 }
 
 .nvdiaLogo {
@@ -581,8 +581,8 @@ a:hover {
 }
 
 .sponsorLogos {
-  height: 4em;
-  width: 4em;
+  height: 5em;
+  width: 5.7em;
 }
 
 .workshop {

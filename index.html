@@ -23,7 +23,7 @@
 				<!-- Navbar size fits the screen -->
 	  		<nav class="navbar navbar-fixed-top longNavbar" id="navbarTop">
 					<a class="navbar-brand generousSponsor" href="#">Genorously sponsored by</a>
-					<a href="https://www.intel.com/" target="_blank"><img src="../img/intel_small_logo.jpg" class="intelLogo" alt="intel"></a>
+					<a href="https://www.intel.com/" target="_blank"><img src="../img/intel_small_logo.jpg" class="intelLogo" id="theIntelLogo" alt="intel"></a>
 						<ul class="nav navbar-nav navbar-right longNavbar">
 								<li id="overwiewOption"><a href="#">Overview</a></li>
 								<li id="topicsOption"><a href="#">Topics</a></li>
@@ -518,7 +518,6 @@
 															    <li></li><li>Gouri Kadam and Shweta Nayak, <i>"Implementation of OpenSource Structural Engineering Application OpenSees on GPU platform"</i></li>
 															    <li></li><li>Mangala N, Shamjith K V, Deepika H.V and Prachi Pandey, <i>"Adaptive Resource Allocation Technique for Exascale Systems"</i></li>
 												                            <li></li><li>Narendra Karmakar, VCV Rao, <i>"MPPLAB(E-Teacher)"</i></li>
-																										<li></li><li>Additional Talks - TBD</li>
 												                            </ul>
 											</div>
 											<div class="col-xs-2 left-aligned">TBD
@@ -533,8 +532,9 @@
 												                            <li></li><li>Manu Awasthi, <i>"DRAM Organization Aware OS Page Allocation"</i></li>
 															    <li></li><li>Gouri Kadam and Shweta Nayak, <i>"Implementation of OpenSource Structural Engineering Application OpenSees on GPU platform"</i></li>
 															    <li></li><li>Mangala N, Shamjith K V, Deepika H.V and Prachi Pandey, <i>"Adaptive Resource Allocation Technique for Exascale Systems"</i></li>
+																	<li></li><li>Shreya Bokare, Sanjay Pawar and Veena Tyagi.<i>"Network coded Storage I/O subsystem for HPC exascale applications"</i></li>
+																	<li></li><li>Manavalan R.<i>"Application level challenges and issues of processing different frequency, polarization and incidence angle Synthetic Aperture Radar data using distributed computing resources"</i></li>
 																	<li></li><li>Narendra Karmakar, VCV Rao, <i>"MPPLAB(E-Teacher)"</i></li>
-																 <li></li><li>Additional Talks - TBD</li>
 												                            </ul>
 											</div>
 											<div class="col-xs-2 left-aligned paddingLeftSpeaker">TBD
@@ -676,7 +676,7 @@
             <li>Carlos Rosales Fernandez, Intel, USA</li>
             <li>Lars Koesterke, Texas Advanced Computing Center, USA</li>
             <li>Sandeep K Joshi, Centre for Development of Advanced Computing, India</li>
-	    <li>Seetha Ram Krishna Nookala, Intel, India</li>			
+	    <li>Seetha Ram Krishna Nookala, Intel, India</li>
             <li>Shreya Bokare, Centre for Development of Advanced Computing, India</li>
             <li>Soham Ghosh, Centre for Development of Advanced Computing, India</li>
             <li>Suman Roychoudhury, Tata Consultancy Services, India</li>
@@ -824,7 +824,17 @@ Lightning talk presentations are limited to one per speaker. Co-authors are not 
 		$(function () {
 			  $(document).scroll(function () {
 				    var fixedTopNavBar = $("#navbarTop");
+						var intelLogoTop = $("#theIntelLogo");
 				    fixedTopNavBar.toggleClass('scrolled', $(this).scrollTop() > fixedTopNavBar.height());
+						if($(this).scrollTop() > fixedTopNavBar.height()){
+								intelLogoTop.css("width", "5em");
+								intelLogoTop.css("height", "3em");
+						}
+						else{
+								intelLogoTop.css("width", "7.5em");
+								intelLogoTop.css("height", "5em");
+						}
+
 			  });
 		});
 

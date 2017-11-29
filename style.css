@@ -19,7 +19,7 @@
   z-index: 1;
 }
 
-@media only screen and (max-width: 1256px){
+@media only screen and (max-width: 1278px){
   .longNavbar {
     display: none;
   }
@@ -63,7 +63,7 @@
     display: none;
   }
 }
-@media only screen and (min-width: 1257px){
+@media only screen and (min-width: 1279px){
   .shortNavbar {
     display: none;
   }
@@ -176,8 +176,9 @@
 }
 
 .intelLogo {
-  width: 6em;
-  height: 3em;
+  width: 7.5em;
+  height: 5em;
+  transition-duration: 0.4s;
 }
 
 .nvdiaLogo {
@@ -568,8 +569,8 @@ a:hover {
 }
 
 .nvidiaLogo {
-  height: 7em;
-  width: 7em;
+  height: 8em;
+  width: 9em;
   margin-left: 4em;
 }
 
@@ -580,8 +581,8 @@ a:hover {
 }
 
 .sponsorLogos {
-  height: 100px;
-  width: 100px;
+  height: 4em;
+  width: 4em;
 }
 
 .workshop {

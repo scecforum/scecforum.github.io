@@ -159,16 +159,6 @@
     display: none;
   }
 }
-@media only screen and (max-width: 1200px){
-  .hideBelow1200 {
-    display: none;
-  }
-}
-@media only screen and (min-width: 1201px){
-  .hideAbove1201 {
-    display: none;
-  }
-}
 
 .onlyBorder1 {
     border: 15px solid #42c2f4;

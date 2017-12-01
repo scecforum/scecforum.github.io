@@ -159,6 +159,16 @@
     display: none;
   }
 }
+@media only screen and (max-width: 1200px){
+  .hideBelow1200 {
+    display: none;
+  }
+}
+@media only screen and (min-width: 1201px){
+  .hideAbove1201 {
+    display: none;
+  }
+}
 
 .onlyBorder1 {
     border: 15px solid #42c2f4;
@@ -179,6 +189,19 @@
   width: 7.5em;
   height: 5em;
   transition-duration: 0.9s;
+}
+
+.narendraPic {
+  margin-left: -3.5em;
+}
+
+.narendraName {
+    margin-left: -4.0em;
+    width: 13em;
+}
+
+.vcvName {
+   margin-left: -.5em;
 }
 
 .nvdiaLogo {

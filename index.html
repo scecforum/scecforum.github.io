@@ -85,8 +85,8 @@
 									Hotel Royal Orchid <br />
  									Opposite to BSNL Office, Tonk Road, Durgapura, Jaipur, Rajasthan, India
  								</div>
-							</a>
  						</div>
+						</a>
  					</div>
  					<div class="col-md-2"></div>
  				</div>
@@ -515,10 +515,75 @@
 												                            <li>Neethi Suresh, Lois Thomas and Bipin Kumar, <i>"DNS for large domains: Challenges for computation and storage" </i></li>
 															    <li><br></li><li>Manu Awasthi, <i>"DRAM Organization Aware OS Page Allocation"</i></li>
 															    <li><br></li><li>Gouri Kadam and Shweta Nayak, <i>"Implementation of OpenSource Structural Engineering Application OpenSees on GPU platform"</i></li>
-															    <li><br></li><li>Mangala N, Shamjith K V, Deepika H.V and Prachi Pandey, <i>"Adaptive Resource Allocation Technique for Exascale Systems"</i></li>
+																	<li><hr class="rmBottomMargin"/></li>
+
+																	<li><span class="bold"><br />Abstract: </span>GPU computing is emerging as an alternative to CPUs for throughput oriented applications because of their number of cores embedded on the same chip and speed-up in computing. GPUs provide general purpose computing using dedicated libraries such as CUDA (for NVIDIA cards, based on a SIMD architecture that makes it possible to handle a very large number of hardware threads concurrently, and can be used for various purposes. This paper explains customization of a well-known open source earthquake engineering application OpenSees on hybrid platform using GPU enabled open source libraries.<br /><br />
+
+																	Available GPU enabled version of OpenSees provided by Xinzheng Lu, Linlin Xie (Tsinghua University, China) uses CulaS4 and CulaS5, which use the Cula library and currently supported on window’s platform. Both of these limits the usage of OpenSees as an open source platform. To overcome this, we have modified existing CuSPSolver to use only freely available CUSP library. Speed up improvement is achieved by diverting analysis component to GPU architecture<br /><br />
+
+																	GPU enablement will help researchers and scientists to use this open-source platform for their research in structural and earthquake engineering domain using OpenSees. Also as there are minor changes required to be done in the input script and no great programming efforts required to run it using GPU enabled OpenSees, these modifications are very user friendly. Speedup around 2.14x is observed when tested with some examples. Different types of examples were studied to compare the results and it has been observed that performance will increases with increase in complexity of the problem. Nodal displacement results of one of the example were compared with CPU and GPU simulations which were matching. This validates the methodology used for GPU enablement. These modifications were also integrated in the mainstream of OpenSees code at Berkley and now available to all structural engineering community. All the study carried out is for single CPU and single GPU. There is lot of scope to extend this work for multi GPU, using other accelerators and using OpenCL.</li>
+																	<li><span class="bold"><br />Bio: </span>Ms Gouri Kadam is working as research scientist with Centre for Development of Advanced computing for last 9 years. She has completed her Masters in Structural Engineering (Civil) from College of Engineering, Pune. She joined Computational Structural mechanics group of CDAC in 2008. She has worked on HPC and Grid platform for porting of Earthquake engineering open source packages. Simulation of large scale structures like multi story building, bridge, benchmarking on HPC and making this platform available to research community helped many researchers in their work.  Currently she is working with HPC Scientific and Engineering Application group in the field Urban Hydrology.</li>
+																	<li><span class="bold"><br />Presentation Slides: </span><br />
+																	<a href="../slides/SCEC2017_GPU_OpenSees.pdf" class="submitPdf presentationSlides" target="_blank" title="PDF Presentation">Implementation of OpenSource Structural Engineering Application OpenSees on GPU platform</a></li>
+																	<li><hr class="rmBottomMargin"/></li>
+															    <li><br></li><li>Mangala N, Deepika H.V, Prachi Pandey and Shamjith K V, <i>"Adaptive Resource Allocation Technique for Exascale Systems"</i></li>
 															    <li><br></li><li>Shreya Bokare, Sanjay Pawar and Veena Tyagi.<i>"Network coded Storage I/O subsystem for HPC exascale applications"</i></li>
+																	<li><hr class="rmBottomMargin"/></li>
+																	<li><span class="bold"><br />Abstract: </span>Tremendous data growth in exascale HPC applications will generate variety of
+datasets. This will impose two important challenges on the storage I/O system i) efficiently
+process large data sets, ii) improved fault tolerance. The exascale storage systems are
+expected to be capable enough providing bandwidth guarantee and applying coding scheme
+optimized for the type of data set.<br /><br />
+Traditional RAID architecture in HPC storage system is being replaced with network coding
+techniques to provide optimal fault tolerance for data. There exists variation in network
+codes based on traditional erasure (reed-Solomon) with number of libraries
+implementations, which notably differ in terms of complexity and implementation for
+specific optimizations.<br /><br />
+We propose an I/O subsystem to provide bandwidth guarantee along with optimized fault
+tolerance for variety of HPC/big datasets. The proposed storage I/O subsystem consists of
+software defined storage gateways and controller working along with filesystem MDS. We
+propose an I/O caching mechanism with hierarchical storage structure embedded at storage
+gateway. The designed caching policy will cache smaller files on faster storage drives (like
+SSD’s) eliminating long access latency for smaller sized files. The storage gateways are
+running with systematic erasure (RS) code, with preconfigured encoding-decoding
+algorithms. At each gateway, network coding (erasure coding encode-decode) is performed
+at multiple tiers with specified parameter. Geometric programming is used to calculate
+parameters at each tier based on data demand. The proposed system provides bandwidth
+guarantee with caching mechanism at hierarchical storage layers. Flexible erasure coding
+provides optimized fault tolerance for variety of application datasets.<br /><br />
+Future work will focus on design of flexible caching and replacement policy for real time
+workload and an adaptive encode-decode algorithm for highly skewed data demand.
+																	</li>
+																	<li><span class="bold"><br />Presentation Slides: </span><a href="../slides/networkCodedStorageIO.pdf" class="submitPdf presentationSlides" target="_blank" title="PDF Presentation"><br/>NETWORK CODED STORAGE I/O SUBSYSTEM FOR HPC EXASCALE APPLICATIONS</a></li>
+																	<li><hr class="rmBottomMargin"/></li>
 															    <li><br></li><li>Manavalan R.<i>"Application level challenges and issues of processing different frequency, polarization and incidence angle Synthetic Aperture Radar data using distributed computing resources"</i></li>
 												                            <li><br></li><li>Venkatesh Shenoi, Janakiraman S and Sandeep Joshi, <i> "Towards energy efficient numerical weather prediction Scalable algorithms and approaches"</i></li>
+																										<li><hr class="rmBottomMargin"/></li>
+																										<li><span class="bold"><br />Abstract:</span>The weather forecasting has a major impact on the society. The meteorologists have been using the
+numerical weather prediction models for the operation forecast for over several decades ever since
+Richardson's attempt towards numerical models for weather prediction. The weather codes have
+consumed a good portion of the computational power available in several supercomputing centers.
+This has led to the need to improve the computational efficiency of the codes/models to achieve
+better resolution moving towards the better accuracy of the forecasts. However, these large scale
+computations are possible only at the expense of the huge energy budget due to the increasing
+requirement of computational resources as well as the cooling infrastructure required to maintain
+them. But with the energy budget fixed at 20 MW it is even more challenging as we are compelled
+to move towards energy efficiency of the weather codes. We focus towards the spectral transform
+method as case study for this talk. This method has been in use in NCAR and ECMWF for the
+operational forecasts.<br /><br />
+
+In this talk, we shall discuss the basics of numerical weather predictions and move towards the test
+bed shallow water model to be solved by spectral transform method. The highlights of the approach
+with regard to algorithm, its scalability and improvements leading to the reduction in the
+computational complexity will be discussed. To conclude, some of the recent efforts on scaling up
+the solver for shallow water equations are discussed along with the glimpse of the ongoing efforts in
+the ESCAPE project. This talk is inspired by our project proposal on “Scalable algorithmic
+approach to spectral transform method” to be pursued under NSM, India.</li>
+																										<li><span class="bold"><br />Bio: </span>Venkatesh Shenoi is a physicsist by training having worked in the area of Condenced Matter Physics at Institute of Physics, Bhubaneswar for his doctoral work. He joined  Scientific and Engineering Computing group of C-DAC, Pune in 2007. He takes keen interest in pedagogy of Scientific Computing. He is involved with the teaching programmes of Interdisciplinary School of Scientfic Computing, S. P. Pune University since 2011.  At present he is part of the High Performance Computing - Infrastructure and Ecosystems group.  He takes active part in the knowledge dissemenation activities of the group targeting the users of the computing facility at C-DAC. His area of interest include; development of parallel applications and scientific computing in general.</li>
+																										<li><span class="bold"><br />Presentation Slides: </span><br />
+																										<a href="../slides/venkatesh_shenoi_slides.pdf" class="submitPdf presentationSlides" target="_blank" title="PDF Presentation">Towards Energy Efficient Numerical Weather Prediction</a><br />
+																										</li>
+																										<li><hr class="rmBottomMargin"/></li>
 															    <li><br></li></ul>
 											</div>
 											<div class="col-xs-2 left-aligned">TBD
@@ -557,15 +622,81 @@
 									<div class="col-xs-12 hideAbove500 styleFont">
 											<div class="col-xs-2 paddingLeftEventTime">13:45-14:50
 											</div>
-											<div class="col-xs-8 left-aligned paddingLeftEventTitle"><ul class="noList">
-												                            <li>Neethi Suresh, Lois Thomas and Bipin Kumar, <i>"DNS for large domains: Challenges for computation and storage" </i></li>
-															    <li><br></li><li>Manu Awasthi, <i>"DRAM Organization Aware OS Page Allocation"</i></li>
-															    <li><br></li><li>Gouri Kadam and Shweta Nayak, <i>"Implementation of OpenSource Structural Engineering Application OpenSees on GPU platform"</i></li>
-															    <li><br></li><li>Mangala N, Shamjith K V, Deepika H.V and Prachi Pandey, <i>"Adaptive Resource Allocation Technique for Exascale Systems"</i></li>
-															    <li><br></li><li>Shreya Bokare, Sanjay Pawar and Veena Tyagi.<i>"Network coded Storage I/O subsystem for HPC exascale applications"</i></li>
-															    <li><br></li><li>Manavalan R.<i>"Application level challenges and issues of processing different frequency, polarization and incidence angle Synthetic Aperture Radar data using distributed computing resources"</i></li>
-															    <li><br></li><li>Venkatesh Shenoi, Janakiraman S and Sandeep Joshi, <i> "Towards energy efficient numerical weather prediction Scalable algorithms and approaches"</i></li>
-												                            </ul>
+											<div class="col-xs-8 left-aligned"><ul class="noList">
+																										<li>Neethi Suresh, Lois Thomas and Bipin Kumar, <i>"DNS for large domains: Challenges for computation and storage" </i></li>
+																	<li><br></li><li>Manu Awasthi, <i>"DRAM Organization Aware OS Page Allocation"</i></li>
+																	<li><br></li><li>Gouri Kadam and Shweta Nayak, <i>"Implementation of OpenSource Structural Engineering Application OpenSees on GPU platform"</i></li>
+																	<li><hr class="rmBottomMargin"/></li>
+
+																	<li><span class="bold"><br />Abstract: </span>GPU computing is emerging as an alternative to CPUs for throughput oriented applications because of their number of cores embedded on the same chip and speed-up in computing. GPUs provide general purpose computing using dedicated libraries such as CUDA (for NVIDIA cards, based on a SIMD architecture that makes it possible to handle a very large number of hardware threads concurrently, and can be used for various purposes. This paper explains customization of a well-known open source earthquake engineering application OpenSees on hybrid platform using GPU enabled open source libraries.<br /><br />
+
+																	Available GPU enabled version of OpenSees provided by Xinzheng Lu, Linlin Xie (Tsinghua University, China) uses CulaS4 and CulaS5, which use the Cula library and currently supported on window’s platform. Both of these limits the usage of OpenSees as an open source platform. To overcome this, we have modified existing CuSPSolver to use only freely available CUSP library. Speed up improvement is achieved by diverting analysis component to GPU architecture<br /><br />
+
+																	GPU enablement will help researchers and scientists to use this open-source platform for their research in structural and earthquake engineering domain using OpenSees. Also as there are minor changes required to be done in the input script and no great programming efforts required to run it using GPU enabled OpenSees, these modifications are very user friendly. Speedup around 2.14x is observed when tested with some examples. Different types of examples were studied to compare the results and it has been observed that performance will increases with increase in complexity of the problem. Nodal displacement results of one of the example were compared with CPU and GPU simulations which were matching. This validates the methodology used for GPU enablement. These modifications were also integrated in the mainstream of OpenSees code at Berkley and now available to all structural engineering community. All the study carried out is for single CPU and single GPU. There is lot of scope to extend this work for multi GPU, using other accelerators and using OpenCL.</li>
+																	<li><span class="bold"><br />Bio: </span>Ms Gouri Kadam is working as research scientist with Centre for Development of Advanced computing for last 9 years. She has completed her Masters in Structural Engineering (Civil) from College of Engineering, Pune. She joined Computational Structural mechanics group of CDAC in 2008. She has worked on HPC and Grid platform for porting of Earthquake engineering open source packages. Simulation of large scale structures like multi story building, bridge, benchmarking on HPC and making this platform available to research community helped many researchers in their work.  Currently she is working with HPC Scientific and Engineering Application group in the field Urban Hydrology.</li>
+																	<li><span class="bold"><br />Presentation Slides: </span><br />
+																	<a href="../slides/SCEC2017_GPU_OpenSees.pdf" class="submitPdf presentationSlides" target="_blank" title="PDF Presentation">Implementation of OpenSource Structural Engineering Application OpenSees on GPU platform</a></li>
+																	<li><hr class="rmBottomMargin"/></li>
+																	<li><br></li><li>Mangala N, Deepika H.V, Prachi Pandey and Shamjith K V, <i>"Adaptive Resource Allocation Technique for Exascale Systems"</i></li>
+																	<li><br></li><li>Shreya Bokare, Sanjay Pawar and Veena Tyagi.<i>"Network coded Storage I/O subsystem for HPC exascale applications"</i></li>
+																	<li><hr class="rmBottomMargin"/></li>
+																	<li class><span class="bold"><br />Abstract: </span>Tremendous data growth in exascale HPC applications will generate variety of
+datasets. This will impose two important challenges on the storage I/O system i) efficiently
+process large data sets, ii) improved fault tolerance. The exascale storage systems are
+expected to be capable enough providing bandwidth guarantee and applying coding scheme
+optimized for the type of data set.<br /><br />
+Traditional RAID architecture in HPC storage system is being replaced with network coding
+techniques to provide optimal fault tolerance for data. There exists variation in network
+codes based on traditional erasure (reed-Solomon) with number of libraries
+implementations, which notably differ in terms of complexity and implementation for
+specific optimizations.<br /><br />
+We propose an I/O subsystem to provide bandwidth guarantee along with optimized fault
+tolerance for variety of HPC/big datasets. The proposed storage I/O subsystem consists of
+software defined storage gateways and controller working along with filesystem MDS. We
+propose an I/O caching mechanism with hierarchical storage structure embedded at storage
+gateway. The designed caching policy will cache smaller files on faster storage drives (like
+SSD’s) eliminating long access latency for smaller sized files. The storage gateways are
+running with systematic erasure (RS) code, with preconfigured encoding-decoding
+algorithms. At each gateway, network coding (erasure coding encode-decode) is performed
+at multiple tiers with specified parameter. Geometric programming is used to calculate
+parameters at each tier based on data demand. The proposed system provides bandwidth
+guarantee with caching mechanism at hierarchical storage layers. Flexible erasure coding
+provides optimized fault tolerance for variety of application datasets.<br /><br />
+Future work will focus on design of flexible caching and replacement policy for real time
+workload and an adaptive encode-decode algorithm for highly skewed data demand.
+																	</li>
+																	<span class="bold"><br />Presentation Slides: </span><a href="../slides/networkCodedStorageIO.pdf" id="presentation1" class="presentationSlides" target="_blank" title="PDF Presentation">NETWORK CODED STORAGE I/O SUBSYSTEM FOR HPC EXASCALE APPLICATIONS</a>
+																	<li><hr class="rmBottomMargin"/></li>
+																	<li><br></li><li>Manavalan R.<i>"Application level challenges and issues of processing different frequency, polarization and incidence angle Synthetic Aperture Radar data using distributed computing resources"</i></li>
+																	<li><hr class="rmBottomMargin"/></li>
+																										<li><br></li><li>Venkatesh Shenoi, Janakiraman S and Sandeep Joshi, <i> "Towards energy efficient numerical weather prediction Scalable algorithms and approaches"</i></li>
+																										<li><hr class="rmBottomMargin"/></li>
+																										<li><span class="bold"><br />Abstract:</span>The weather forecasting has a major impact on the society. The meteorologists have been using the
+numerical weather prediction models for the operation forecast for over several decades ever since
+Richardson's attempt towards numerical models for weather prediction. The weather codes have
+consumed a good portion of the computational power available in several supercomputing centers.
+This has led to the need to improve the computational efficiency of the codes/models to achieve
+better resolution moving towards the better accuracy of the forecasts. However, these large scale
+computations are possible only at the expense of the huge energy budget due to the increasing
+requirement of computational resources as well as the cooling infrastructure required to maintain
+them. But with the energy budget fixed at 20 MW it is even more challenging as we are compelled
+to move towards energy efficiency of the weather codes. We focus towards the spectral transform
+method as case study for this talk. This method has been in use in NCAR and ECMWF for the
+operational forecasts.<br /><br />
+
+In this talk, we shall discuss the basics of numerical weather predictions and move towards the test
+bed shallow water model to be solved by spectral transform method. The highlights of the approach
+with regard to algorithm, its scalability and improvements leading to the reduction in the
+computational complexity will be discussed. To conclude, some of the recent efforts on scaling up
+the solver for shallow water equations are discussed along with the glimpse of the ongoing efforts in
+the ESCAPE project. This talk is inspired by our project proposal on “Scalable algorithmic
+approach to spectral transform method” to be pursued under NSM, India.</li>
+																										<li><span class="bold"><br />Bio: </span>Venkatesh Shenoi is a physicsist by training having worked in the area of Condenced Matter Physics at Institute of Physics, Bhubaneswar for his doctoral work. He joined  Scientific and Engineering Computing group of C-DAC, Pune in 2007. He takes keen interest in pedagogy of Scientific Computing. He is involved with the teaching programmes of Interdisciplinary School of Scientfic Computing, S. P. Pune University since 2011.  At present he is part of the High Performance Computing - Infrastructure and Ecosystems group.  He takes active part in the knowledge dissemenation activities of the group targeting the users of the computing facility at C-DAC. His area of interest include; development of parallel applications and scientific computing in general.</li>
+																										<li><span class="bold"><br />Presentation Slides: </span><br />
+																										<a href="../slides/venkatesh_shenoi_slides.pdf" class="submitPdf presentationSlides" target="_blank" title="PDF Presentation">Towards Energy Efficient Numerical Weather Prediction</a><br />
+																										</li>
+																										<li><hr class="rmBottomMargin"/></li>
+																	<li><br></li></ul>
 											</div>
 											<div class="col-xs-2 left-aligned paddingLeftSpeaker">TBD
 											</div>
@@ -879,7 +1010,7 @@ Lightning talk presentations are limited to one per speaker. Co-authors are not 
   	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   	<script>
 		//Once user scrolls down or up, the background of the top navbar will change and
-		//the navbar will still be on the top of the page
+			//the navbar will still be on the top of the page
 		$(function () {
 			  $(document).scroll(function () {
 				    var fixedTopNavBar = $("#navbarTop");

@@ -263,6 +263,15 @@
   color: black;
 }
 
+.presentationSlides {
+  font-size: 1em;
+  color: #ffffff;
+  font-weight: bold;
+  color: black;
+  transition-duration: 0.4s;
+  margin-bottom: 0px;
+}
+
 .eventTitle {
   margin: auto;
   position: absolute;

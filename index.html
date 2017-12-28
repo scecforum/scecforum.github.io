@@ -29,6 +29,7 @@
 								<li id="topicsOption"><a href="#">Topics</a></li>
 								<li id="agendaOption"><a href="#">Agenda</a></li>
 								<li id="datesOption"><a href="#">Dates</a></li>
+								<li id="photosOption"><a href="#">Photos</a></li>
 								<li id="committeeOption"><a href="#">Committee</a></li>
 								<li id="sponsorsOption"><a href="#">Sponsors</a></li>
 								<li id="CFAOption"><a href="#">CFA</a></li>
@@ -54,6 +55,7 @@
 										<li id="topicsOption"><a href="#">Topics</a></li>
 										<li id="agendaOption"><a href="#">Agenda</a></li>
 										<li id="datesOption"><a href="#">Dates</a></li>
+										<li id="photosOption"><a href="#">Photos</a></li>
 										<li id="committeeOption"><a href="#">Committee</a></li>
 										<li id="sponsorsOption"><a href="#">Sponsors</a></li>
 										<li id="CFAOption"><a href="#">CFA</a></li>
@@ -514,7 +516,6 @@
 											<div class="col-xs-8 left-aligned"><ul class="noList">
 												<li><span class="bold">Neethi Suresh, Lois Thomas and Bipin Kumar, <i>"DNS for large domains: Challenges for computation and storage" </i></span></li>
 												<li><span class="bold"><br />Abstract: </span>Clouds play a very important role in modulating climate by controlling radiation received at the Earth surface. In spite of their importance, their dynamics are not well understood due to simulation limitations. The lack of understanding of the hydrodynamics and the micro-physical processes in clouds causes major uncertainties in current atmospheric general circulation models. Direct Numerical Simulation (DNS) is a three dimensional simulation approach to simulate turbulent flows at smallest scale where the equations are solved explicitly without any approximation. Running the DNS in bigger domain is compute intensive and lengthy. Hence, prior knowledge of the resources required to run DNS code can be of great advantage. A Numerical Simulation of entrainment and mixing process at cloud interface to study droplet dynamics has been carried out for smaller domains and the time to run code for bigger domain has been projected using linear regression formula. Projected time for bigger domain size will provide researcher to estimate the wall clock time as well as storage requirement, based on available computational resources, to run DNS. The simulation is carried out for different size domains and optimized number of cores has been suggested based on scaling factors for different domains. Further a 17% gain in computational time is achieved by amending algorithm, where only sparse operations are considered in place of full dense data. Use of pnetcdf library has also provided advantages over conventional I/O format.</li>
-												<li><span class="bold"><br />Bio: </span>Neethi Suresh is presently working as a Scientist in the High Performance Computing department in Indian Institute of Tropical Meteorology, India. She graduated with BE(Electronics and Telecommunication) from Pune University, India. She has extensive experience in Parallel computing in weather domain and designing software solutions based on the requirement analysis. She was actively involved in all the phases of deployment of the new HPC system in IITM.</li>
 												<li><span class="bold"><br />Presentation Slides: </span><br />
 												<a href="../slides/Neethi_Suresh_Slides.pdf" class="submitPdf presentationSlides" target="_blank" title="PDF Presentation">DNS for large domains: Challenges for computation and storage</a></li>
 												<li><hr class="rmBottomMargin"/></li>
@@ -528,7 +529,7 @@
 																										The OS allocates memory at the granularity of pages. Since the OS has no knowledge of the underlying architecture and organization of per-NUMA node DRAM, each OS page could potentially be concentrated to a subset of available channels, DIMMs, ranks, banks and arrays, putting them under pressure and reducing performance. In order to get most benefit out of existing architectures, it is necessary that the OS allocate memory (at page granularity) while being cognizant of the inner architecture and organization of per-NUMA node DRAM.<br /><br />
 
 																										In this proposal, we propose mechanisms where the OS, in addition to reducing memory allocation for processes across NUMA nodes, also takes into account the organization of DRAM DIMMs (channels, ranks, banks, rows, columns etc.) for every memory controller. This will help the OS make page allocation decisions which maximize the use of available parallelism, increase locality and hence reduce overall memory access latency, decreasing application runtimes.</li>
-																										<li><span class="bold"><br />Bio: </span>Manu Awasthi is an Assistant Professor of Computer Science and Engineering at IIT Gandhinagar. Before joining IIT, he worked on design and performance analysis of memory and storage subsystems for datacenters with the Memory Solutions Lab at Samsung Semiconductor Inc as a System Architect. He has also worked with the Architecture Definition Group (ADG) at Micron Semiconductor on the modeling and performance analysis of DRAM architectures, including the Hybrid Memory Cube (HMC). Manu received his PhD in Computer Science from the University of Utah, and a Bachelors in Computer Science and Engineering from IIT (BHU), Varanasi. His current research interests include memory and storage architectures, workload characterization and performance modeling of datacenter applications. He is the author of several conference and journal publications, including two best paper awards. </li>
+
 																										<li><span class="bold"><br />Presentation Slides: </span><br />
 																										<a href="../slides/SCEC2017Final.pdf" class="submitPdf presentationSlides" target="_blank" title="PDF Presentation">DRAM Organization Aware OS Page Allocation</a></li>
 																										<li><hr class="rmBottomMargin"/></li>
@@ -540,7 +541,6 @@
 
 																	GPU enablement will help researchers and scientists to use this open-source platform for their research in structural and earthquake engineering domain using OpenSees. Also as there are minor changes required to be done in the input script and no great programming efforts required to run it using GPU enabled OpenSees, these modifications are very user friendly. Speedup around 2.14x is observed when tested with some examples. Different types of examples were studied to compare the results and it has been observed that performance will increases with increase in complexity of the problem. Nodal displacement results of one of the example were compared with CPU and GPU simulations which were matching. This validates the methodology used for GPU enablement. These modifications were also integrated in the mainstream of OpenSees code at Berkley and now available to all structural engineering community. All the study carried out is for single CPU and single GPU. There is lot of scope to extend this work for multi GPU, using other accelerators and using OpenCL.</li>
 
-																	<li><span class="bold"><br />Bio: </span>Ms Gouri Kadam is working as research scientist with Centre for Development of Advanced computing for last 9 years. She has completed her Masters in Structural Engineering (Civil) from College of Engineering, Pune. She joined Computational Structural mechanics group of CDAC in 2008. She has worked on HPC and Grid platform for porting of Earthquake engineering open source packages. Simulation of large scale structures like multi story building, bridge, benchmarking on HPC and making this platform available to research community helped many researchers in their work.  Currently she is working with HPC Scientific and Engineering Application group in the field Urban Hydrology.</li>
 
 																	<li><span class="bold"><br />Presentation Slides: </span><br />
 																	<a href="../slides/SCEC2017_GPU_OpenSees.pdf" class="submitPdf presentationSlides" target="_blank" title="PDF Presentation">Implementation of OpenSource Structural Engineering Application OpenSees on GPU platform</a></li>
@@ -548,9 +548,6 @@
 																	<li><span class="bold"><br />Mangala N, Deepika H.V, Prachi Pandey and Shamjith K V, <i>"Adaptive Resource Allocation Technique for Exascale Systems"</i></span></li>
 																	<li><span class="bold"><br />Abstract:</span>The future exascale systems are expected to have numerous heterogeneous computing resources in order to achieve computational performance against the energy consumption guidelines.  To harness these computing resources it is essential to have hybrid applications that can exploit a combination of CPU and other accelerators for execution. To optimally exploit the cluster performance offered by the heterogeneous architecture, it is necessary to schedule the application based on their exhibited characteristics. However, scheduling hybrid parallel applications is a challenging task as a single resource allocation algorithm should be able to handle multiple aspects of heterogeneity, application characteristics and accelerators’ capabilities while ensuring to achieve optimal resource utilization and good response time to all the jobs. We propose a novel resource allocation technique which makes an in-depth logical scheduling decision based on multiple criteria - characterisation of the hybrid applications, energy conservation, and network topology with resource proximity for allocation. The knowledge of prior job execution is used to self evolve the optimal resource selection mechanism. A unique enhancement has been added in the scheduler to circumvent long waiting time by dynamically adapting applications to alternate resource through re-targeting the device at runtime. This technique helps to reduced waiting time for getting the required resource, and hence improves the turnaround time for the user.  The resource allocator considers the challenges of exascale scenario and orchestrates a solution to help HPC users to get their applications executed with less waiting time with better efficiency, and assures effective resource utilization from the HPC resource administrator’s perspective.</li>
 
-																	<li><span class="bold"><br />Bio: </span>Ms. Mangala is Associate Director, at C-DAC (Centre for Development of Advanced Computing). She is heading the group on System Software Development for HPC at C-DAC Bangalore.<br/><br/>
-
-																	She did Bachelor of Engineering in Computer Science & Engineering from Bangalore University (1994), and Master of Engineering in Computer Science & Engineering in 1996. She has rich knowledge of - System Software Development, Compilers, Debuggers, Real Time Systems, SCADA, Grid Computing, and High Performance Heterogeneous Computing and executed several projects in these domains. She has over 2 dozen publications in International Conferences & Journals, and 2 Indian Patents. She is presently working actively for the National Supercomputing Mission.</li>
 																	<li><span class="bold"><br />Presentation Slides: </span><br />
 																	<a href="../slides/Mangala_Slides.pptx" class="submitPdf presentationSlides" target="_blank" title="PDF Presentation">Adaptive Resource Allocation Technique for Exascale Systems</a><br />
 																	</li>
@@ -582,16 +579,13 @@ provides optimized fault tolerance for variety of application datasets.<br /><br
 Future work will focus on design of flexible caching and replacement policy for real time
 workload and an adaptive encode-decode algorithm for highly skewed data demand.
 																	</li>
-																	<li><span class="bold"><br />Bio: </span>Shreya Bokare is working as Senior Technical Officer in Computer Networks & Internet Engineering Research group at C-DAC Mumbai. She is working in the area of IPSAN and disaster recovery past 10 years and working as a team lead for projects in the area of IPSAN and Disaster Recovery. She has  published number of papers in international conferences and journals in the area of Storage based disaster recovery, Network coding and cloud.
-Shreya Bokare is B.E and M.Tech in Electronics Engineering from Nagpur University and pursuing PhD in Electronics and Telecommunication Engineering from SNDT University. Her research interests are Storage area network, Disaster Recovery, I/O optimization, Network Coding
-</li>
 																	<li><span class="bold"><br />Presentation Slides: </span><a href="../slides/networkCodedStorageIO.pdf" class="submitPdf presentationSlides" target="_blank" title="PDF Presentation"><br/>NETWORK CODED STORAGE I/O SUBSYSTEM FOR HPC EXASCALE APPLICATIONS</a></li>
 																	<li><hr class="rmBottomMargin"/></li>
 																	<li><span class="bold"><br />Manavalan R.<i>"Application level challenges and issues of processing different frequency, polarization and incidence angle Synthetic Aperture Radar data using distributed computing resources"</i></span></li>
 
 																	<li><span class="bold"><br />Abstract:</span>The role and need of Synthetic Aperture Radar (SAR) technology in various geospatial applications is proved beyond the doubts as SAR can make available critical information about on the filed information with centimeter to millimeter accuracy. The science of processing such SAR data using the distributed computing resources is more than two decade old and as of now been broadly bolstered by worldwide HPC labs for example, ESA’s G-POD (Grid Processing on Demand), Peppers (A Performance Emphasized Production Environment for Remote Sensing), DLR distributed SAR data processing environment, Center for Earth Observation and Digital Earth (CEODE) of Chinese Academy of Sciences (CAS),..etc. This paper discusses the difficulties and issues of Geospatial application users who are working with multiple sets of voluminous temporal SAR data and brings out the importance of developing and deploying all-purpose HPC based infrastructure environment that can meet the expectations of application users. Specific situations which require simultaneous processing of different frequency, polarization and incidence angle SAR data using the distributed HPC resources and related requirements will be discussed. For example during the SAR raw data processing, the need and importance of simultaneous processing and extraction of different polarization images as well as in completing its related post processing tasks and mapping operations will be highlighted. When the same has to be done at a regional scale, mainly to simulate large scale disaster events with various multi-look factors as well as with different post processing filtering options the need of developing and deploying such real time solutions on an exascale computing environment can be well understood. As on date such large scale complex SAR application model supporting the above mentioned expectations is yet to be developed. In line to this this talk will brings out the importance of prototyping such HPC based SAR data processing environment which can support the complete application cycle of real time regional disaster management simulations and its related operations. Any such operational setup certainly needs effective coordination of worldwide space agencies as well as distributed HPC labs.</li>
 
-																	<li><span class="bold"><br />Bio: </span>Dr. R Manavalan is currently working at Centre for Development of Advanced Computing (C-DAC), Bangalore, India.  He has completed his doctoral thesis in microwave Remote Sensing Applications as well as completed M.Tech in Remote Sensing, MBA in Operation Research and M.Sc in Geology.  He has near to two decades of work experience in the fields of remote sensing application models. He has few International journal publications and 10+ international conference publications.</li>
+
 																	<li><span class="bold"><br />Presentation Slides: </span><br />
 																	<a href="../slides/13DEC2017-CDACB-Manavaln-Slides.pdf" class="submitPdf presentationSlides" target="_blank" title="PDF Presentation">‘Application level’ challenges and issues of processing different frequency, polarization and incidence angle Synthetic Aperture Radar data using distributed computing resources</a><br />
 																	</li>
@@ -618,8 +612,7 @@ computational complexity will be discussed. To conclude, some of the recent effo
 the solver for shallow water equations are discussed along with the glimpse of the ongoing efforts in
 the ESCAPE project. This talk is inspired by our project proposal on “Scalable algorithmic
 approach to spectral transform method” to be pursued under NSM, India.</li>
-<li><span class="bold"><br />Bio: </span>Venkatesh Shenoi is a physicsist by training having worked in the area of Condenced Matter Physics at Institute of Physics, Bhubaneswar for his doctoral work. He joined  Scientific and Engineering Computing group of C-DAC, Pune in 2007. He takes keen interest in pedagogy of Scientific Computing. He is involved with the teaching programmes of Interdisciplinary School of Scientfic Computing, S. P. Pune University since 2011.  At present he is part of the High Performance Computing - Infrastructure and Ecosystems group.  He takes active part in the knowledge dissemenation activities of the group targeting the users of the computing facility at C-DAC. His area of interest include; development of parallel applications and scientific computing in general.
-</li>
+
 																										<li><span class="bold"><br />Presentation Slides: </span><br />
 																										<a href="../slides/venkatesh_shenoi_slides.pdf" class="submitPdf presentationSlides" target="_blank" title="PDF Presentation">Towards Energy Efficient Numerical Weather Prediction</a><br />
 																										</li>
@@ -665,7 +658,6 @@ approach to spectral transform method” to be pursued under NSM, India.</li>
 											<div class="col-xs-8 left-aligned"><ul class="noList">
 																										<li><span class="bold">Neethi Suresh, Lois Thomas and Bipin Kumar, <i>"DNS for large domains: Challenges for computation and storage" </i></span></li>
 																										<li><span class="bold"><br />Abstract: </span>Clouds play a very important role in modulating climate by controlling radiation received at the Earth surface. In spite of their importance, their dynamics are not well understood due to simulation limitations. The lack of understanding of the hydrodynamics and the micro-physical processes in clouds causes major uncertainties in current atmospheric general circulation models. Direct Numerical Simulation (DNS) is a three dimensional simulation approach to simulate turbulent flows at smallest scale where the equations are solved explicitly without any approximation. Running the DNS in bigger domain is compute intensive and lengthy. Hence, prior knowledge of the resources required to run DNS code can be of great advantage. A Numerical Simulation of entrainment and mixing process at cloud interface to study droplet dynamics has been carried out for smaller domains and the time to run code for bigger domain has been projected using linear regression formula. Projected time for bigger domain size will provide researcher to estimate the wall clock time as well as storage requirement, based on available computational resources, to run DNS. The simulation is carried out for different size domains and optimized number of cores has been suggested based on scaling factors for different domains. Further a 17% gain in computational time is achieved by amending algorithm, where only sparse operations are considered in place of full dense data. Use of pnetcdf library has also provided advantages over conventional I/O format.</li>
-																										<li><span class="bold"><br />Bio: </span>Neethi Suresh is presently working as a Scientist in the High Performance Computing department in Indian Institute of Tropical Meteorology, India. She graduated with BE(Electronics and Telecommunication) from Pune University, India. She has extensive experience in Parallel computing in weather domain and designing software solutions based on the requirement analysis. She was actively involved in all the phases of deployment of the new HPC system in IITM.</li>
 																										<li><span class="bold"><br />Presentation Slides: </span><br />
 																										<a href="../slides/Neethi_Suresh_Slides.pdf" class="submitPdf presentationSlides" target="_blank" title="PDF Presentation">DNS for large domains: Challenges for computation and storage</a></li>
 																										<li><hr class="rmBottomMargin"/></li>
@@ -679,7 +671,7 @@ approach to spectral transform method” to be pursued under NSM, India.</li>
 																	The OS allocates memory at the granularity of pages. Since the OS has no knowledge of the underlying architecture and organization of per-NUMA node DRAM, each OS page could potentially be concentrated to a subset of available channels, DIMMs, ranks, banks and arrays, putting them under pressure and reducing performance. In order to get most benefit out of existing architectures, it is necessary that the OS allocate memory (at page granularity) while being cognizant of the inner architecture and organization of per-NUMA node DRAM.<br /><br />
 
 																	In this proposal, we propose mechanisms where the OS, in addition to reducing memory allocation for processes across NUMA nodes, also takes into account the organization of DRAM DIMMs (channels, ranks, banks, rows, columns etc.) for every memory controller. This will help the OS make page allocation decisions which maximize the use of available parallelism, increase locality and hence reduce overall memory access latency, decreasing application runtimes.</li>
-																	<li><span class="bold"><br />Bio: </span>Manu Awasthi is an Assistant Professor of Computer Science and Engineering at IIT Gandhinagar. Before joining IIT, he worked on design and performance analysis of memory and storage subsystems for datacenters with the Memory Solutions Lab at Samsung Semiconductor Inc as a System Architect. He has also worked with the Architecture Definition Group (ADG) at Micron Semiconductor on the modeling and performance analysis of DRAM architectures, including the Hybrid Memory Cube (HMC). Manu received his PhD in Computer Science from the University of Utah, and a Bachelors in Computer Science and Engineering from IIT (BHU), Varanasi. His current research interests include memory and storage architectures, workload characterization and performance modeling of datacenter applications. He is the author of several conference and journal publications, including two best paper awards. </li>
+
 																	<li><span class="bold"><br />Presentation Slides: </span><br />
 																	<a href="../slides/SCEC2017Final.pdf" class="submitPdf presentationSlides" target="_blank" title="PDF Presentation">DRAM Organization Aware OS Page Allocation</a></li>
 																	<li><hr class="rmBottomMargin"/></li>
@@ -691,17 +683,12 @@ approach to spectral transform method” to be pursued under NSM, India.</li>
 
 																	GPU enablement will help researchers and scientists to use this open-source platform for their research in structural and earthquake engineering domain using OpenSees. Also as there are minor changes required to be done in the input script and no great programming efforts required to run it using GPU enabled OpenSees, these modifications are very user friendly. Speedup around 2.14x is observed when tested with some examples. Different types of examples were studied to compare the results and it has been observed that performance will increases with increase in complexity of the problem. Nodal displacement results of one of the example were compared with CPU and GPU simulations which were matching. This validates the methodology used for GPU enablement. These modifications were also integrated in the mainstream of OpenSees code at Berkley and now available to all structural engineering community. All the study carried out is for single CPU and single GPU. There is lot of scope to extend this work for multi GPU, using other accelerators and using OpenCL.</li>
 
-																	<li><span class="bold"><br />Bio: </span>Ms Gouri Kadam is working as research scientist with Centre for Development of Advanced computing for last 9 years. She has completed her Masters in Structural Engineering (Civil) from College of Engineering, Pune. She joined Computational Structural mechanics group of CDAC in 2008. She has worked on HPC and Grid platform for porting of Earthquake engineering open source packages. Simulation of large scale structures like multi story building, bridge, benchmarking on HPC and making this platform available to research community helped many researchers in their work.  Currently she is working with HPC Scientific and Engineering Application group in the field Urban Hydrology.</li>
 
 																	<li><span class="bold"><br />Presentation Slides: </span><br />
 																	<a href="../slides/SCEC2017_GPU_OpenSees.pdf" class="submitPdf presentationSlides" target="_blank" title="PDF Presentation">Implementation of OpenSource Structural Engineering Application OpenSees on GPU platform</a></li>
 																	<li><hr class="rmBottomMargin"/></li>
 																	<li><span class="bold"><br />Mangala N, Deepika H.V, Prachi Pandey and Shamjith K V, <i>"Adaptive Resource Allocation Technique for Exascale Systems"</i></span></li>
 																	<li><span class="bold"><br />Abstract:</span>The future exascale systems are expected to have numerous heterogeneous computing resources in order to achieve computational performance against the energy consumption guidelines.  To harness these computing resources it is essential to have hybrid applications that can exploit a combination of CPU and other accelerators for execution. To optimally exploit the cluster performance offered by the heterogeneous architecture, it is necessary to schedule the application based on their exhibited characteristics. However, scheduling hybrid parallel applications is a challenging task as a single resource allocation algorithm should be able to handle multiple aspects of heterogeneity, application characteristics and accelerators’ capabilities while ensuring to achieve optimal resource utilization and good response time to all the jobs. We propose a novel resource allocation technique which makes an in-depth logical scheduling decision based on multiple criteria - characterisation of the hybrid applications, energy conservation, and network topology with resource proximity for allocation. The knowledge of prior job execution is used to self evolve the optimal resource selection mechanism. A unique enhancement has been added in the scheduler to circumvent long waiting time by dynamically adapting applications to alternate resource through re-targeting the device at runtime. This technique helps to reduced waiting time for getting the required resource, and hence improves the turnaround time for the user.  The resource allocator considers the challenges of exascale scenario and orchestrates a solution to help HPC users to get their applications executed with less waiting time with better efficiency, and assures effective resource utilization from the HPC resource administrator’s perspective.</li>
-
-																	<li><span class="bold"><br />Bio: </span>Ms. Mangala is Associate Director, at C-DAC (Centre for Development of Advanced Computing). She is heading the group on System Software Development for HPC at C-DAC Bangalore.<br/><br/>
-
-																	She did Bachelor of Engineering in Computer Science & Engineering from Bangalore University (1994), and Master of Engineering in Computer Science & Engineering in 1996. She has rich knowledge of - System Software Development, Compilers, Debuggers, Real Time Systems, SCADA, Grid Computing, and High Performance Heterogeneous Computing and executed several projects in these domains. She has over 2 dozen publications in International Conferences & Journals, and 2 Indian Patents. She is presently working actively for the National Supercomputing Mission.</li>
 																	<li><span class="bold"><br />Presentation Slides: </span><br />
 																	<a href="../slides/Mangala_Slides.pptx" class="submitPdf presentationSlides" target="_blank" title="PDF Presentation">Adaptive Resource Allocation Technique for Exascale Systems</a><br />
 																	</li>
@@ -733,16 +720,13 @@ provides optimized fault tolerance for variety of application datasets.<br /><br
 Future work will focus on design of flexible caching and replacement policy for real time
 workload and an adaptive encode-decode algorithm for highly skewed data demand.
 																	</li>
-																	<li><span class="bold"><br />Bio: </span>Shreya Bokare is working as Senior Technical Officer in Computer Networks & Internet Engineering Research group at C-DAC Mumbai. She is working in the area of IPSAN and disaster recovery past 10 years and working as a team lead for projects in the area of IPSAN and Disaster Recovery. She has  published number of papers in international conferences and journals in the area of Storage based disaster recovery, Network coding and cloud.
-Shreya Bokare is B.E and M.Tech in Electronics Engineering from Nagpur University and pursuing PhD in Electronics and Telecommunication Engineering from SNDT University. Her research interests are Storage area network, Disaster Recovery, I/O optimization, Network Coding
-</li>
 																	<li><span class="bold"><br />Presentation Slides: </span><a href="../slides/networkCodedStorageIO.pdf" class="submitPdf presentationSlides" target="_blank" title="PDF Presentation"><br/>NETWORK CODED STORAGE I/O SUBSYSTEM FOR HPC EXASCALE APPLICATIONS</a></li>
 																	<li><hr class="rmBottomMargin"/></li>
 																	<li><span class="bold"><br />Manavalan R.<i>"Application level challenges and issues of processing different frequency, polarization and incidence angle Synthetic Aperture Radar data using distributed computing resources"</i></span></li>
 
 																	<li><span class="bold"><br />Abstract:</span>The role and need of Synthetic Aperture Radar (SAR) technology in various geospatial applications is proved beyond the doubts as SAR can make available critical information about on the filed information with centimeter to millimeter accuracy. The science of processing such SAR data using the distributed computing resources is more than two decade old and as of now been broadly bolstered by worldwide HPC labs for example, ESA’s G-POD (Grid Processing on Demand), Peppers (A Performance Emphasized Production Environment for Remote Sensing), DLR distributed SAR data processing environment, Center for Earth Observation and Digital Earth (CEODE) of Chinese Academy of Sciences (CAS),..etc. This paper discusses the difficulties and issues of Geospatial application users who are working with multiple sets of voluminous temporal SAR data and brings out the importance of developing and deploying all-purpose HPC based infrastructure environment that can meet the expectations of application users. Specific situations which require simultaneous processing of different frequency, polarization and incidence angle SAR data using the distributed HPC resources and related requirements will be discussed. For example during the SAR raw data processing, the need and importance of simultaneous processing and extraction of different polarization images as well as in completing its related post processing tasks and mapping operations will be highlighted. When the same has to be done at a regional scale, mainly to simulate large scale disaster events with various multi-look factors as well as with different post processing filtering options the need of developing and deploying such real time solutions on an exascale computing environment can be well understood. As on date such large scale complex SAR application model supporting the above mentioned expectations is yet to be developed. In line to this this talk will brings out the importance of prototyping such HPC based SAR data processing environment which can support the complete application cycle of real time regional disaster management simulations and its related operations. Any such operational setup certainly needs effective coordination of worldwide space agencies as well as distributed HPC labs.</li>
 
-																	<li><span class="bold"><br />Bio: </span>Dr. R Manavalan is currently working at Centre for Development of Advanced Computing (C-DAC), Bangalore, India.  He has completed his doctoral thesis in microwave Remote Sensing Applications as well as completed M.Tech in Remote Sensing, MBA in Operation Research and M.Sc in Geology.  He has near to two decades of work experience in the fields of remote sensing application models. He has few International journal publications and 10+ international conference publications.</li>
+
 																	<li><span class="bold"><br />Presentation Slides: </span><br />
 																	<a href="../slides/13DEC2017-CDACB-Manavaln-Slides.pdf" class="submitPdf presentationSlides" target="_blank" title="PDF Presentation">‘Application level’ challenges and issues of processing different frequency, polarization and incidence angle Synthetic Aperture Radar data using distributed computing resources</a><br />
 																	</li>
@@ -769,8 +753,7 @@ computational complexity will be discussed. To conclude, some of the recent effo
 the solver for shallow water equations are discussed along with the glimpse of the ongoing efforts in
 the ESCAPE project. This talk is inspired by our project proposal on “Scalable algorithmic
 approach to spectral transform method” to be pursued under NSM, India.</li>
-<li><span class="bold"><br />Bio: </span>Venkatesh Shenoi is a physicsist by training having worked in the area of Condenced Matter Physics at Institute of Physics, Bhubaneswar for his doctoral work. He joined  Scientific and Engineering Computing group of C-DAC, Pune in 2007. He takes keen interest in pedagogy of Scientific Computing. He is involved with the teaching programmes of Interdisciplinary School of Scientfic Computing, S. P. Pune University since 2011.  At present he is part of the High Performance Computing - Infrastructure and Ecosystems group.  He takes active part in the knowledge dissemenation activities of the group targeting the users of the computing facility at C-DAC. His area of interest include; development of parallel applications and scientific computing in general.
-</li>
+
 																										<li><span class="bold"><br />Presentation Slides: </span><br />
 																										<a href="../slides/venkatesh_shenoi_slides.pdf" class="submitPdf presentationSlides" target="_blank" title="PDF Presentation">Towards Energy Efficient Numerical Weather Prediction</a><br />
 																										</li>
@@ -917,6 +900,38 @@ approach to spectral transform method” to be pursued under NSM, India.</li>
     </div>
   </div>
 </div>
+
+
+<a name="photosOption"></a>
+		<div class="onlyBorder3 photosSection">
+			<div class="container-fluid topicsSec">
+					<div class="theBorder container">
+						<h1 class="bold photoTitle">Photos</h2><br />
+							<div class="col-xs-2"></div>
+					<div class="col-xs-8 hideBelow1200"><a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+						<img id="thePicture" class="photos" src="../img/photos/1.jpeg">
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+
+<div class="col-xs-8 hideAgendaTitle-md hideAbove1201"><a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+	<img id="thePicture" class="photos" src="../img/photos/1.jpeg">
+<a class="next1" onclick="plusSlides(1)">&#10095;</a>
+</div>
+
+<div class="col-xs-12 addMargin hideAgendaTitle-lg-sm hideAgendaTitle-lg-sm1"><a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+	<img id="thePicture" class="photos" src="../img/photos/1.jpeg">
+<a class="next3" onclick="plusSlides(1)">&#10095;</a>
+</div>
+
+<div class="col-xs-8 hideAgendaTitle-lg1"><a class="prev4" onclick="plusSlides(-1)">&#10094;</a>
+	<img id="thePicture" class="photos1" src="../img/photos/1.jpeg">
+<a class="next4" onclick="plusSlides(1)">&#10095;</a>
+</div>
+
+<div class="col-xs-2"></div>
+		</div></div></div>
+
+
  <div class="row row1">
 <div class="col-md-6 backgroundBlue">
   <a name="committeeOption"></a>
@@ -1118,6 +1133,22 @@ Lightning talk presentations are limited to one per speaker. Co-authors are not 
 		function scrollToAnchor(theName){
 		    var aTag = $("a[name='"+ theName +"']");
 		    $('html,body').animate({scrollTop: aTag.offset().top},'slow');
+		}
+
+		//Change the slideshow picture
+		let count = 1;
+		function plusSlides(pointer){
+				if(pointer == 1)
+					count++;
+				else
+					count--;
+
+				if(count == 68)
+					count = 1;
+				else if(count == -1)
+					count = 67;
+				var url = "../img/photos/"+count.toString()+".JPEG";
+				$("#thePicture").attr("src",url);
 		}
   	</script>
 </body>

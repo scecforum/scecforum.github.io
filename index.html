@@ -1147,7 +1147,13 @@ Lightning talk presentations are limited to one per speaker. Co-authors are not 
 					count = 1;
 				else if(count == -1)
 					count = 67;
-				var url = "../img/photos/"+count.toString()+".JPEG";
+
+				if(count >= 41 && count <= 67)
+					var url = "../img/photos/"+count.toString()+".jpeg";
+				else{
+					var url = "../img/photos/"+count.toString()+".JPEG";
+				}
+
 				$("#thePicture").attr("src",url);
 		}
   	</script>
